@@ -1,8 +1,8 @@
-
+import Btn from './components/ui/Button'
 function App() {
   return (
     <div>
-      Salom SoffDev
+      <Btn />
     </div>
   );
 }
