@@ -1,0 +1,96 @@
+.mycard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    margin-top: 50px;
+    padding: 40px;
+    position: relative;
+    
+}
+/* .hline{
+    position: absolute;
+    width: 300px;
+    border: 1px solid #fff;
+    top: 0;
+    right: -30px;
+} */
+/* .hline1{
+    position: absolute;
+    height: 300px;
+    border: 1px solid #fff;
+    top: -30px;
+    right: 0;
+} */
+.twoLine{
+    position: absolute;
+    width: 300px;
+    border: 1px solid #fff;
+    top: 0;
+    left: -30px;
+}
+.twoLine2{
+    position: absolute;
+    height: 300px;
+    border: 1px solid #fff;
+    top: -30px;
+    left: 0;
+}
+.imgSec {
+    width: 350px;
+    height: 400px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+}
+.imgbg{
+    width: 300px;
+    height: 340px;
+    background-color: #0b006191;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.imgbg img{
+    width: 270px;
+    height: 310px;
+
+}
+.imgbg .line{
+    width: 200px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 0;
+    right: -40px;
+}
+.imgbg .line1{
+    height: 200px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: -42px;
+    right: 0;
+}
+.imgbg .line2{
+    height: 200px;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: -42px;
+    left: 0;
+}
+.imgbg .line3{
+    width: 200px;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: -42px;
+}
+.textSec{
+    width: 500px;
+    
+}
+.textSec p{
+    margin: 50px 0;
+}

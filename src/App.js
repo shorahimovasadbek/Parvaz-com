@@ -1,8 +1,8 @@
-import Btn from './components/ui/Button'
+import All from './components/ui/AkfaAbout'
 function App() {
   return (
-    <div>
-      <Btn />
+    <div className='container'>
+      <All />
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.btn1{
+    border:  2px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

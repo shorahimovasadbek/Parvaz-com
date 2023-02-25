@@ -1,0 +1,26 @@
+.myrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+}
+.cols{
+    width: 400px;
+    height: 400px;
+    
+}
+.colss{
+    width: 400px;
+    height: 400px;
+    order: 2; 
+}
+.cols img{
+    width: 400px;
+}
+.cols1{
+    width: 500px;
+}
+.cols1 p{
+    padding: 50px 0;
+}
