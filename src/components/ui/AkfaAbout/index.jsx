@@ -2,6 +2,7 @@ import React from 'react';
 import '../AkfaAbout/main.css'
 import name from '../../../assets/akfa.png';
 import Sliderr from '../AkfaAbout/slider'
+import About from './about'
 
 const Index = () => {
     return (
@@ -30,7 +31,10 @@ const Index = () => {
                 </div>
             </div>
             <div className='bottomline'></div>
+            <h1 className='text-center text-light'>Colors</h1>
             <Sliderr/>
+            <div className='bottomline'></div>
+            <About/>
         </div>
     );
 }
