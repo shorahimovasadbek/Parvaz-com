@@ -1,49 +1,58 @@
 .mycard{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     color: #fff;
-    margin-top: 50px;
-    padding: 40px;
+    margin-top: 50px !important;
+    padding: 60px !important;
     position: relative;
     
 }
-/* .hline{
+.hline{
     position: absolute;
-    width: 300px;
+    width: 150px !important;
     border: 1px solid #fff;
     top: 0;
-    right: -30px;
-} */
-/* .hline1{
+    right: 10px;
+}
+.hline1{
     position: absolute;
-    height: 300px;
+    width: 150px !important;
+    transform: rotate(90deg);
     border: 1px solid #fff;
-    top: -30px;
-    right: 0;
-} */
-.twoLine{
+    top: 50px;
+    right: -40px;
+}
+/* .twoLine{
     position: absolute;
-    width: 300px;
+    width: 150px !important;
     border: 1px solid #fff;
     top: 0;
-    left: -30px;
+    left:10px;
 }
 .twoLine2{
     position: absolute;
-    height: 300px;
+    width: 150px !important;
+    transform: rotate(90deg);
     border: 1px solid #fff;
-    top: -30px;
-    left: 0;
-}
+    top: 50px;
+    left:-50px;
+} */
 .imgSec {
-    width: 350px;
-    height: 400px;
-    margin-left: 20px;
+    width: 380px !important;
+    height: 420px !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    order: 2;
+    /* order: 1 !important; */
+}
+.imgSec1 {
+    width: 380px !important;
+    height: 420px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1 !important;
 }
 .imgbg{
     width: 300px;
@@ -89,8 +98,94 @@
 }
 .textSec{
     width: 500px;
-    
+    margin-left: 50px;
 }
 .textSec p{
     margin: 50px 0;
+}
+
+/* media screen */
+@media (max-width: 981px) {
+    .imgbg{
+        width: 250px;
+        height: 300px;
+        background-color: #0b006191;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .imgSec {
+        width: 280px !important;
+        height: 320px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* order: 1 !important; */
+    }
+    .imgSec1 {
+        width: 290px !important;
+        height: 340px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 1 !important;
+    }
+    .imgbg img{
+        width: 250px;
+        height: 290px;
+    
+    }
+    .textSec{
+        padding: 10px;
+        width: 0;
+        margin-left: 0;
+    }
+    .imgbg .line{
+        width: 150px;
+        border: 1px solid #fff;
+        position: absolute;
+        top: 0;
+        right: -20px;
+    }
+    .imgbg .line1{
+        height: 150px;
+        border: 1px solid #fff;
+        position: absolute;
+        top: -22px;
+        right: 0;
+    }
+    .imgbg .line2{
+        height: 150px;
+        border: 1px solid #fff;
+        position: absolute;
+        bottom: -22px;
+        left: 0;
+    }
+    .imgbg .line3{
+        width: 150px;
+        border: 1px solid #fff;
+        position: absolute;
+        bottom: 0;
+        left: -22px;
+    }
+    .mycard{
+        padding: 0  !important;
+    }
+}
+@media (max-width: 740px) {
+    .imgbg{
+        width: 200px;
+        height: 250px;
+        background-color: #0b006191;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .imgbg img{
+        width: 200px;
+        height: 250px;
+    
+    }
 }

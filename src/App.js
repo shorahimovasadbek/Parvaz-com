@@ -1,4 +1,4 @@
-import All from './components/ui/AkfaAbout'
+import All from './components/ui/AllProducts'
 function App() {
   return (
     <div className='container'>

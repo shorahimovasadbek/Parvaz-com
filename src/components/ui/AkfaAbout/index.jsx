@@ -1,22 +1,27 @@
-import React from 'react';
+import React  , {useEffect}from 'react';
 import '../AkfaAbout/main.css'
 import name from '../../../assets/akfa.png';
 import Sliderr from '../AkfaAbout/slider'
 import About from './about'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Index = () => {
+    useEffect(() => {
+        AOS.init()
+    }, []);
     return (
         <div >
-            <h1 className='text-center text-light'>Vinka 7000</h1>
+            <h1 className='text-center text-light mb-5'>Vinka 7000</h1>
             <div className='row firstSection'>
-                <div className="col-5 imgSec w-25">
+                <div className="col-12 col-sm-6 col-md-5 imgSec" data-aos='fade-right' data-aos-duration='1500'>
                     <img src={name} alt="akfa" />
-                    <div className="line"></div>
-                    <div className="line1"></div>
-                    <div className="line2"></div>
-                    <div className="line3"></div> 
+                    <div className="line" data-aos="fade-right" data-aos-duration='2000'></div>
+                    <div className="line1" data-aos="fade-up" data-aos-duration='2000'></div>
+                    <div className="line2" data-aos="fade-down" data-aos-duration='2000'></div>
+                    <div className="line3" data-aos="fade-left" data-aos-duration='2000'></div>
                 </div>
-                <div className='col-7'>
+                <div className='col-12 col-sm-6 col-md-7 mt-5 mt-md-0' data-aos='fade-left' data-aos-duration='1500'>
                     <ul>
                         <li>Application on wall directly</li>
                         <li>Witdh of 60 mm, pulp thickness</li>
@@ -31,10 +36,10 @@ const Index = () => {
                 </div>
             </div>
             <div className='bottomline'></div>
-            <h1 className='text-center text-light'>Colors</h1>
+            <h1 className='text-center text-light m-4'>Colors</h1>
             <Sliderr/>
             <div className='bottomline'></div>
-            <About/>
+            <About />
         </div>
     );
 }

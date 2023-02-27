@@ -24,3 +24,12 @@
 .cols1 p{
     padding: 50px 0;
 }
+
+@media (max-width: 990px) {
+    .cols img{
+        width: 350px;
+    }
+    .colss img{
+        width: 350px;
+    }
+}
