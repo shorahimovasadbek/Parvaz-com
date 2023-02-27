@@ -1,0 +1,28 @@
+img{
+  height: 100px;
+}
+
+.card{
+  background-color: #190061 !important;
+  padding: 10px;
+  transition: all ease-in-out .4s;
+}
+
+.card h2, .card p{
+  color: white;
+}
+
+.card h2{
+  padding-top:20px;
+  padding-bottom: 10px;
+}
+
+.card p{
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 20px;
+}
+
+.card:hover{
+  cursor: pointer;
+  border: 1px solid white;
+}
