@@ -17,7 +17,7 @@ const Index = () => {
         };
     return (
         <div>
-            <div className=' d-flex mycard row' data-aos="fade-right" data-aos-duration='1000'>
+            <div className=' d-flex mycard row g-0'  data-aos="fade-right" data-aos-duration='1000'>
                 <div className=" imgSec col-12 col-sm-6 col-md-3 mt-5 mt-md-0" style={styles} data-aos='fade-up' data-aos-duration='2000' data-aos-delay='500'>
                     <div className='imgbg '>
                        <img src={img1} alt="Pvc 7000 " /> 

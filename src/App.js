@@ -1,7 +1,7 @@
-import All from './components/ui/AllProducts'
+import All from './components/ui/AkfaAbout'
 function App() {
   return (
-    <div className='container'>
+    <div >
       <All />
     </div>
   );
