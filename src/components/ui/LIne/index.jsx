@@ -4,7 +4,7 @@ import './main.css'
 const Index = () => {
     return (
         <div>
-            <div className='line my-5'></div>
+            <div  className='line my-5'></div>
         </div>
     );
 }

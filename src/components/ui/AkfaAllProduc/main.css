@@ -23,7 +23,7 @@
     top: 50px;
     right: -40px;
 }
-/* .twoLine{
+.twoLine{
     position: absolute;
     width: 150px !important;
     border: 1px solid #fff;
@@ -37,7 +37,7 @@
     border: 1px solid #fff;
     top: 50px;
     left:-50px;
-} */
+}
 .imgSec {
     width: 380px !important;
     height: 420px !important;

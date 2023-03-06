@@ -5,6 +5,7 @@ import Paragraf from '../Paragraf'
 import H1 from '../H1/Header1'
 
 const Index = (props) => {
+    console.log(props , '1');
     const styles = {
         backgroundImage: `url(${props.img})`,
         backgroundRepeat: 'no-repeat',
