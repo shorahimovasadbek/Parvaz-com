@@ -42,29 +42,33 @@ export default function Location() {
   return (
     <div className='container'>
       <Header1 info='Location' />
-      <div className='row g-0 images_section'>
-        <div data-aos-duration='1500' data-aos="fade-right" className='col-12 col-md-6 col-lg-3' style={styles1}>
+      <div className='row images_section'>
+        <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
+          <img src={LocationImg1} alt="Location img" />
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>Uzbekistan</p>
             <span>Location</span>
           </span>
         </div>
-        <div data-aos-duration='1500' data-aos="fade-down" className='col-12 col-md-6 col-lg-3' style={styles2}>
+        <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
+          <img src={LocationImg2} alt="Location img" />
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>Afganistan</p>
             <span>Location</span>
           </span>
         </div>
-        <div data-aos-duration='1500' data-aos="fade-up" className='col-12 col-md-6 col-lg-3' style={styles3}>
+        <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
+          <img src={LocationImg3} alt="Location img" />
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>Amerika</p>
             <span>Location</span>
           </span>
         </div>
-        <div data-aos-duration='1500' data-aos="fade-left" className='col-12 col-md-6 col-lg-3' style={styles4}>
+        <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
+          <img src={LocationImg4} alt="Location img" />
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>Kazakhistan</p>

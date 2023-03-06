@@ -1,4 +1,217 @@
-.images{
-  display: flex;
-  justify-content: center;
+.carousel{
+  height: 100vh;
+  background-image: url('../../../assets/header/patterns.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.body_div{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption {
+  width: 45%;
+  height: 80%;
+  left: 8% !important;
+}
+
+.carousel-item img{
+  height: 500px;
+  object-fit: cover;
+  margin-right: 70px;
+}
+
+.carousel-inner{
+  display: flex;
+  position: absolute;
+  top: 10%;
+}
+
+.parvaz{
+  font-size: 50px;
+  font-family: 'Italiana', serif;
+}
+
+.learn_more{
+  border: 1px solid white;
+  padding:10px 20px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.icon{
+  color: white !important;
+  font-size: 20px;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(2){
+  margin: 0 20px;
+}
+.carousel-indicators [data-bs-target]:nth-child(4){
+  margin: 0 20px;
+}
+.carousel-indicators [data-bs-target]:nth-child(6){
+  margin: 0 20px;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(1){
+  background-image: url("../../../assets/header/pcv1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(2){
+  background-image: url("../../../assets/header/pcv2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(3){
+  background-image: url("../../../assets/header/pcv3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(4){
+  background-image: url("../../../assets/header/qoy.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(5){
+  background-image: url("../../../assets/header/bik.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(6){
+  background-image: url("../../../assets/header/floor.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(7){
+  background-image: url("../../../assets/header/tovuq.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.carousel-indicators{
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  width: max-content;
+  margin-left: 25% !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .carousel-item img{
+    height: 300px;
+    object-fit: cover;
+    margin-right: 30px;
+  }
+
+  .parvaz{
+    font-size: 30px;
+  }
+
+  .paragraph{
+    font-size: 14px;
+  }
+
+  .carousel-caption{
+    width: 80%
+  }
+
+  .body_div{
+    background-color: rgb(0, 0, 0);
+  }
+
+  .carousel-inner{
+    top: 20%;
+  }
+
+  .learn_more{
+    border: 1px solid white;
+    padding:5px 10px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .carousel-item img{
+    height: 500px;
+    object-fit: cover;
+    margin-right: 30px;
+  }
+  
+  .parvaz{
+    font-size: 30px;
+  }
+
+  .paragraph{
+    font-size: 15px;
+  }
+
+  .carousel-caption{
+    width: 80%;
+  }
+
+  .body_div{
+    background-color: rgb(0, 0, 0);
+  }
+
+  .carousel-inner{
+    top: 20%;
+  }
+
+  .learn_more{
+    border: 1px solid white;
+    padding:5px 10px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

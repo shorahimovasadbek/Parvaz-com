@@ -1,0 +1,10 @@
+.big_content{
+  color: white;
+}
+
+.products{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Italiana', serif;
+}

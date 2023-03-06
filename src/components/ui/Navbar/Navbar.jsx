@@ -1,30 +1,50 @@
-import React, { useState } from 'react'
 import img_logo from '../../../assets/footer_images/logo.png'
+import indicator from '../../../assets/header/Stroke 1.png'
+import React, { useEffect } from 'react';
 import "./navbar.css";
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+import 'aos/dist/aos.css'
+import Aos from 'aos';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-export default function Navbar() {
 
 
-  const [selected, setSelected] = useState([]);
+export default function App() {
+  useEffect(() => {
+    Aos.init()
+  }, []);
 
   return (
-    <div className='header'>
-      <img src={img_logo} alt='logo img' />
-      <ul>
-        <li>Home</li>
-        <li>About us</li>
-        <li className='drop'>
-          <DropdownButton id="dropdown-basic-button" title="Dropdown button">
-            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-          </DropdownButton>
-        </li>
-        <li>Contact</li>
-        <li className='language'>Eng</li>
-      </ul>
-    </div>
-  )
+    <Navbar collapseOnSelect expand="lg" variant="dark">
+      <Container>
+        <Navbar.Brand href="#home"><img src={img_logo} alt="logo img" /></Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav ps-3">
+          <Nav className="me-auto"></Nav>
+          <Nav className='ms-4 ms-md-0'>
+            <Nav.Link href="#deets">Home</Nav.Link>
+            <Nav.Link eventKey={2} href="#memes">
+              About us
+            </Nav.Link>
+            <NavDropdown title="Products" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Floor</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Animal foods
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Akwin</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href='#'>Contact</Nav.Link>
+            <NavDropdown className='ms-0 ms-lg-4 language' title="Eng" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1" className='text-muted' disabled> Eng </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1"> Ru </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2"> Uz </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3"> Fr </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
