@@ -7,8 +7,9 @@ import Navbar from "./components/ui/Navbar/Navbar";
 // import Header from './components/ui/Header/Header'
 // import Floor from './components/ui/Flour_section/Flour'
 // import Access from "./components/ui/Accessories/Access";
-import Header_wiev from "./components/ui/Header_wiev__section/Header_wiev";
-import About_us from "./components/ui/About_us/About_us";
+// import Header_wiev from "./components/ui/Header_wiev__section/Header_wiev";
+// import About_us from "./components/ui/About_us/About_us";
+import Contact from "./components/ui/Contact/Contact";
 function App() {
   return (
     <div>
@@ -21,7 +22,8 @@ function App() {
       <Footer/> */}
       {/* <Floor/>   */}
       {/* <Access/> */}
-      <About_us/>
+      {/* <About_us/> */}
+      <Contact/>
     </div>
   );
 }
