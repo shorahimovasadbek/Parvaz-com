@@ -1,0 +1,58 @@
+.firstSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+li{
+    margin: 10px 0;
+}
+/* img{
+    width: 270px;
+    height: 310px;
+
+} */
+.imgSec{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px !important; 
+    margin: 0 auto !important;
+
+    
+}
+ .line{
+    width: 100px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+ .line1{
+    height: 100px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: -12px;
+    right:0;
+}
+ .line2{
+    height: 100px;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+}
+ .line3{
+    width: 100px;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: -12px;
+}
+.bottomline{
+    width: 90%;
+    border: 1px solid #fff;
+    border-radius: 20%;
+    margin-top: 50px;
+}

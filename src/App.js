@@ -3,17 +3,19 @@
 // import Location from "./components/ui/Location/Location";
 // import Partner from "./components/ui/Partners/Partner";
 // import Footer from "./components/ui/footer/Footer";
-import Navbar from "./components/ui/Navbar/Navbar";
+// import Navbar from "./components/ui/Navbar/Navbar";
 // import Header from './components/ui/Header/Header'
 // import Floor from './components/ui/Flour_section/Flour'
 // import Access from "./components/ui/Accessories/Access";
 // import Header_wiev from "./components/ui/Header_wiev__section/Header_wiev";
 // import About_us from "./components/ui/About_us/About_us";
-import Contact from "./components/ui/Contact/Contact";
+// import Contact from "./components/ui/Contact/Contact";
+import Home from './pages/Home'
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Home/>
+      {/* <Navbar/> */}
       {/* <Header/>
       <Iso/>
       <Partner/>
@@ -23,9 +25,10 @@ function App() {
       {/* <Floor/>   */}
       {/* <Access/> */}
       {/* <About_us/> */}
-      <Contact/>
+      {/* <Contact/> */}
     </div>
   );
 }
 
 export default App;
+
