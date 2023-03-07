@@ -120,7 +120,7 @@ export default function Contact() {
               (Array.isArray(item)) ?
                 <div className='px-lg-0 my-4'>
                   <h2>{item[0].name_main}</h2>
-                  <ul>
+                  <ul className='lh-lg'>
                     {
                       item[1].map((result, i) => {
                         return (
@@ -140,7 +140,7 @@ export default function Contact() {
                 :
                 <div data-aos='fade-up' data-aos-duration='1000' className='px-lg-0 my-4'>
                   {
-                    <ul className='d-flex  align-items-center flex-wrap'>
+                    <ul className='d-flex  align-items-center flex-wrap lh-lg'>
                       <div className='description'>
                         <li className='main_item'>{item.name}</li>
                         <li>{item.number}</li>
