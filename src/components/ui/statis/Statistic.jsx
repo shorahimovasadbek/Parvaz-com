@@ -17,11 +17,11 @@ export default function Statistic() {
   }, [counter]);
 
   return (
-    <div className='container'>
+    <div  className='container'>
       <Header1 info='Statistics'/>
       <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
-        <div className="row d-flex justify-content-center">
-          <div data-aos-duration='1500' data-aos-delay='1000' data-aos="fade-right" className="col-12 my-4 my-lg-0 px-4 px-lg-3 col-md-6  col-lg-3">
+        <div className="row g-0 d-flex justify-content-center">
+          <div data-aos-duration='1500' data-aos="fade-up" className="col-12 my-4 my-lg-0 px-4 px-lg-3 col-md-6  col-lg-3">
             <div className="card text-center">
               <div>
                 <img src={factories} alt="statistic img1" />
@@ -30,7 +30,7 @@ export default function Statistic() {
               <p>Factories</p>
             </div>
           </div>
-          <div data-aos-duration='1500' data-aos-delay='1000' data-aos="fade-up" className="col-12 my-4 my-lg-0 px-4 px-lg-3 col-md-6  col-lg-3">
+          <div data-aos-duration='1500' data-aos="fade-up" className="col-12 my-4 my-lg-0 px-4 px-lg-3 col-md-6  col-lg-3">
             <div className="card text-center">
               <div>
                 <img src={clients} alt="statistic img1" />
@@ -39,7 +39,7 @@ export default function Statistic() {
               <p>Clients</p>
             </div>
           </div>
-          <div data-aos-duration='1500' data-aos-delay='1000' data-aos="fade-left" className="col-12 my-4 my-lg-0 px-4 px-lg-3 col-md-6  col-lg-3">
+          <div data-aos-duration='1500' data-aos="fade-up" className="col-12 my-4 my-lg-0 px-4 px-lg-3 col-md-6  col-lg-3">
             <div className="card text-center">
               <div>
                 <img src={worders} alt="statistic img1" />

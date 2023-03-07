@@ -15,6 +15,7 @@
 }
 .MYcard img{
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -165,8 +166,8 @@
         background-color: #0c0061;
         color: #fff;
         position: absolute;
-        /* bottom: 15%; */
-        left: 22%;
+        bottom: 13%;
+        left: 28%;
         z-index: 1;
     }
 }

@@ -1,31 +1,9 @@
 .footer{
-  height: 40vh;
   background-color: #0C0061;
-  display: flex;
-  justify-content: center;
+  padding-top: 10px;
+  margin-top: 50px;
+  height: auto;
 }
-
-.footer .patterns{
-  height: 40vh;
-  width: 100vw;
-  opacity: 0.7;
-}
-
-
-.parent_div{
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  align-items: center;
-  position: absolute;
-  top: 0px;
-}
-
-.parent_div > div, .parent_div > ul{
-  width: 100%;
-  color: white;
-}
-
-.parent_div > ul{
-  list-style-type: none;
+.img1{
+  width: 50%;
 }

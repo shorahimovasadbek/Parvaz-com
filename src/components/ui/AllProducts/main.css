@@ -6,17 +6,23 @@
     color: #fff;
 }
 .cols{
-    width: 400px;
+    width: 350px;
     height: 400px;
     
 }
 .colss{
-    width: 400px;
+    width: 350px;
     height: 400px;
     order: 2; 
 }
 .cols img{
-    width: 400px;
+    width: 350px;
+    height: 350px;
+}
+.colss img{
+    width: 350px;
+    height: 350px;
+    float: right;
 }
 .cols1{
     width: 500px;
@@ -27,17 +33,21 @@
 
 @media (max-width: 990px) {
     .cols img{
-        width: 350px;
+        width: 300px;
     }
     .colss img{
-        width: 350px;
+        width: 300px;
     }
 }
 @media (max-width: 750px ) {
     .cols img{
-        width: 320px;
+        width: 280px;
     }
     .colss img{
-        width: 320px;
+        width: 280px;
     }
+    .colss{
+        order: 0;
+    }
+   
 }

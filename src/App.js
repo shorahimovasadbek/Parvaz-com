@@ -1,8 +1,13 @@
-import All from './pages/animlaPge/Aboutpage'
+import {Outlet} from 'react-router-dom'
+import Home from './pages/Home'
+import Nav from './components/ui/Navbar/Navbar'
+import Footer from './components/ui/footer/Footer'
 function App() {
   return (
     <div >
-      <All />
+      <Nav/>
+      <Outlet/>
+      <Footer/>
     </div>
   );
 }

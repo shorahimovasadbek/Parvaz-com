@@ -188,4 +188,7 @@
         height: 250px;
     
     }
+    .imgSec1{
+        order: 0 !important;
+    }
 }

@@ -14,15 +14,15 @@ export default function Iso() {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      items: 4
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4
+      items: 3
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2
+      items: 1
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -38,12 +38,12 @@ export default function Iso() {
     <div className='container text-center'>
       <Header1 info='ISO Certificates'/>
       <Carousel className='sliderssss' infinite={true} keyBoardControl={true} responsive={responsive} autoPlay={true} autoPlaySpeed={2000} showDots={true}>
-        <div data-aos="fade-up"><img src={Iso_img1} alt="iso_sertificat1"/></div>
-        <div data-aos-delay='500' data-aos="fade-up" data-aos-easing="ease-in-sine"><img src={Iso_img2} alt="iso_sertificat2"/></div>
-        <div data-aos="fade-down"><img src={Iso_img3} alt="iso_sertificat3"/></div>
-        <div data-aos-delay='500' data-aos="fade-down" data-aos-easing="ease-in-sine"><img src={Iso_img4} alt="iso_sertificat4"/></div>
-        <div data-aos="fade-up"><img src={Iso_img2} alt="iso_sertificat2"/></div>
-        <div data-aos-delay='500' data-aos="fade-up" data-aos-easing="ease-in-sine"><img src={Iso_img3} alt="iso_sertificat3"/></div>
+        <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img1} alt="iso_sertificat1"/></div>
+        <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img2} alt="iso_sertificat2"/></div>
+        <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img3} alt="iso_sertificat3"/></div>
+        <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img4} alt="iso_sertificat4"/></div>
+        <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img2} alt="iso_sertificat2"/></div>
+        <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img3} alt="iso_sertificat3"/></div>
       </Carousel>
     </div>
   )
