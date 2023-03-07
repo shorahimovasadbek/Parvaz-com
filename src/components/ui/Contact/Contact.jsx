@@ -58,6 +58,30 @@ export default function Contact() {
         address: 'SARAK 64 METRE , FRONT OF SAFI MARKET',
         url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52702.08638058019!2d62.17605046748124!3d34.353521874946686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f3ce6a894be6cf7%3A0x9db9f81752d677c4!2z0JPQtdGA0LDRgiwg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116480886!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
       },
+      {
+        name: 'USA: 7300 beach blvd',
+        number: '+1 (904) 444-1389',
+        address: 'Jacksonville Florida 32216 USA',
+        url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55128.40725524224!2d-81.62057455888025!3d30.27909951308636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5b5c1e33593c9%3A0x9b587022b8a6fddb!2z0JTQttC10LrRgdC-0L3QstC40LvQuywg0KTQu9C-0YDQuNC00LAgMzIyMTYsINCh0KjQkA!5e0!3m2!1sru!2s!4v1678185626972!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+      },
+      {
+        name: 'Uz: 8/1 Bunyodkor Avenue',
+        number: '+998 99-720-79-92 / +998998991312',
+        address: 'Tashkent 100115 Uzbekistan',
+        url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.144683300428!2d69.23658091506277!3d41.30571600901773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ba9c7000001%3A0xb0c161ca741621d6!2zOCwgODY0USs5UFAsIDEgQnVueW9ka29yIEF2ZW51ZSwgVGFzaGtlbnQgMTAwMDM1LCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1678185750907!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+      },
+      {
+        name: 'Kz: Al Farabi, Mustafina',
+        number: '+7 707 507 9911',
+        address: ' Orbita -2 Almaty, Kazakhstan Аль Фараби, Мустафина, Орбита - 2',
+        url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11672.943537876332!2d68.85812038256317!3d42.99436736104147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aa006448422413%3A0x2cd91afb7427a0e7!2z0JDQu9GMLdCk0LDRgNCw0LHQuCwg0JrQsNC30LDRhdGB0YLQsNC9!5e0!3m2!1sru!2s!4v1678185862145!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+      },
+      {
+        name: 'Tajikistan : Sevostopolsyaka st. 8',
+        number: '+992 20 331 1313',
+        address: 'Sino district , Dushanbe Tajikistan',
+        url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.9572882386!2d68.64149518891266!3d38.56150890450092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b5d16fd27bf89b%3A0xddf9378ddea1fd44!2z0JTRg9GI0LDQvdCx0LUsINCi0LDQtNC20LjQutC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678185953777!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+      },
       [
         {
           name_main: 'KABUL'
