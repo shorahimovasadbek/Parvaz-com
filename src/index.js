@@ -12,6 +12,7 @@ import About_us from './pages/AboutUS';
 import Akfa from './pages/AkfaPages/AkfaMain'
 import Flour from './pages/FlourPage'
 import Animal from './pages/animlaPge/allAnimal'
+import Contact from './components/ui/Contact/Contact';
 import { BrowserRouter,Router, Routes, Route } from 'react-router-dom'
 
 
@@ -29,6 +30,7 @@ root.render(
           <Route path='/akwin' element={<Akfa/>} />
           <Route path='/flour' element={<Flour/>} />
           <Route path='/animal' element={<Animal />} />
+          <Route path='/contact' element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

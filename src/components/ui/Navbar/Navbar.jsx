@@ -38,7 +38,7 @@ export default function App() {
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3"><Link to='flour'>Floor</Link></NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href='#'>Contact</Nav.Link>
+            <Nav.Link href='#'><Link to='/contact'>Contact</Link></Nav.Link>
             <NavDropdown className='ms-0 ms-lg-4 language' title="Eng" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1" className='text-muted' disabled> Eng </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.1"> Ru </NavDropdown.Item>

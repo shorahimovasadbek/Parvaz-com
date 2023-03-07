@@ -47,4 +47,21 @@ button:focus:not(:focus-visible) {
 
 .dropdown-item:hover {
   color: white !important;
-  background-color: #0C0061 !important;}
+  background-color: #0C0061 !important;
+}
+
+
+@media only screen and (min-width: 992px){
+  .navbar-nav{
+    align-items: center;
+  }
+}
+
+  @media only screen and (max-width: 992px) {
+    .language #collasible-nav-dropdown{
+      display: inline-block;
+    }
+    .navbar{
+      padding-bottom: 20px !important;
+    }
+  }
