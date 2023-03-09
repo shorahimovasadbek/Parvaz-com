@@ -12,10 +12,13 @@ const Index = () => {
     const styles = {
         backgroundImage: `url(${img})`,
         backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
         };
+        
     return (
-        <div style={styles}>
+        <div class="overflow-hidden">
             <Head />
+            <div style={styles}>
             <div className="container" >
                 <Header1 info='Products' />
                 <Cards />
@@ -23,6 +26,7 @@ const Index = () => {
                 <Ico/>
                 <Location/>
                 <Partners/>
+            </div>
             </div>
         </div>
     );

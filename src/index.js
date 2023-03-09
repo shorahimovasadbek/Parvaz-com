@@ -10,9 +10,12 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import Home from './pages/Home';
 import About_us from './pages/AboutUS';
 import Akfa from './pages/AkfaPages/AkfaMain'
+import AkfaAbout from './pages/AkfaPages/AkfaAbout'
 import Flour from './pages/FlourPage'
 import Animal from './pages/animlaPge/allAnimal'
 import Contact from './components/ui/Contact/Contact';
+import Sigir from './pages/animlaPge/sgirPage'
+import AnimalAbout from './pages/animlaPge/Aboutpage'
 import { BrowserRouter,Router, Routes, Route } from 'react-router-dom'
 
 
@@ -28,8 +31,11 @@ root.render(
           <Route index path='/' element={<Home />} />
           <Route path='/about' element={<About_us/>}/>
           <Route path='/akwin' element={<Akfa/>} />
+          <Route path='/akfaabout' element={<AkfaAbout/>} />
           <Route path='/flour' element={<Flour/>} />
           <Route path='/animal' element={<Animal />} />
+          <Route path='/sigir' element={<Sigir />} />
+          <Route path='/animalabout' element={<AnimalAbout />} />
           <Route path='/contact' element={<Contact />} />
         </Route>
       </Routes>

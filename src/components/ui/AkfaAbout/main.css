@@ -7,11 +7,11 @@
 li{
     margin: 10px 0;
 }
-/* img{
+.imgSec img{
     width: 270px;
     height: 310px;
 
-} */
+}
 .imgSec{
     position: relative;
     display: flex;

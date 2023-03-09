@@ -10,15 +10,14 @@ const Index = () => {
     const styles = {
         backgroundImage: `url(${img1})`,
         backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
         };
     return (
         <div style={styles}>
-            <Nav/>
             <Header img={img} text='Vinka 7000' subtitl='Products' />
             <div className='container py-5'>
                 <About/>
             </div>
-            <Footer/>
         </div>
     );
 }

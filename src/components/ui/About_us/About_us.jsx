@@ -34,7 +34,6 @@ export default function About_us() {
   return (
     <div className='big_content'>
       <div className="container">
-        <p className='products'>About us</p>
         {
           (mass) && mass.map((item, index) => {
             return (
@@ -42,7 +41,7 @@ export default function About_us() {
                 <div data-aos='fade-down' data-aos-duration='1000' className={`col-12 col-md-6 ${(index % 2 === 0 ? 'order-last' : 'order-first')}`}>
                   <p className='border-bottom border-2 border-md-3 w-100 my-2 my-md-5'></p>
                   <h4>{item.title}</h4>
-                  <p className='px-3 text-start text-md-center description'>{item.description}</p>
+                  <p className='px-3 text-start  description'>{item.description}</p>
                 </div>
                 <div data-aos='fade-up' data-aos-duration='1000' className='col-12 col-md-6'>
                   <p><img className='w-75 h-25' src={item.src1} alt={item.title}/></p>

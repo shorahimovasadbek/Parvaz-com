@@ -12,7 +12,7 @@
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-  position: absolute;
+  /* position: absolute; */
   background-color: #0C0032 !important;
   z-index: 1002;
 }

@@ -9,13 +9,14 @@ import qoy from '../../../assets/header/qoy.png'
 import bik from '../../../assets/header/bik.png'
 import floor from '../../../assets/header/floor.png'
 import tovuq from '../../../assets/header/tovuq.png'
+import Btn from '../Buttons/Button'
 import { BsArrowRight } from 'react-icons/bs';
 
 export default function Header() {
   return (
     <div className='body_div'>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators d-none d-xl-block">
+        <div class="carousel-indicators d-xl-block">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -30,7 +31,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <p className='learn_more'>Learn more <BsArrowRight className='icon'/></p>
+              <Btn/>
             </div>
           </div>
           <div class="carousel-item">
@@ -38,7 +39,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <p className='learn_more'>Learn more <BsArrowRight className='icon'/></p>
+              <Btn/>
             </div>
           </div>
           <div class="carousel-item">
@@ -46,7 +47,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <p className='learn_more'>Learn more <BsArrowRight className='icon'/></p>
+              <Btn/>
             </div>
           </div>
           <div class="carousel-item">
@@ -54,7 +55,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <p className='learn_more'>Learn more <BsArrowRight className='icon'/></p>
+              <Btn/>
             </div>
           </div>
           <div class="carousel-item">
@@ -62,7 +63,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <p className='learn_more'>Learn more <BsArrowRight className='icon'/></p>
+              <Btn/>
             </div>
           </div>
           <div class="carousel-item">
@@ -70,7 +71,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <p className='learn_more'>Learn more <BsArrowRight className='icon'/></p>
+              <Btn/>
             </div>
           </div>
           <div class="carousel-item">
@@ -78,7 +79,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <p className='learn_more'>Learn more <BsArrowRight className='icon'/></p>
+              <Btn/>
             </div>
           </div>
         </div>

@@ -21,6 +21,7 @@ const Index = () => {
     const styles = {
         backgroundImage: `url(${one1})`,
         backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
         };
     const mass =[
         {
@@ -52,8 +53,6 @@ const Index = () => {
         <div style={styles}>
             <Header img={img} text='Parvazprof Industrial and Production Company' subtitl='Products' />
             <div className="container">
-                <H1 info='Products' />
-                <Line />
                 <Card mass={mass}/>
             </div>
         </div>

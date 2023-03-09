@@ -16,10 +16,10 @@ const image =[
         <div className="container">
             <div className='container'>
                 <div className="row">
-                    <div className=" mt-3 maincard">
+                    <div className=" mx-3 maincard">
                         <img src={img} alt=""  className='w-100  '/>
                     </div>
-                    <div className='col-6 btn btn-outline-light rounded-pill mt-3 btn'>buy now</div>
+                    <div className='col-6 mx-3 btn'><button className='btn btn-outline-light rounded-pill w-100'>buy now</button></div>
                     <div className="box" >
                         {
                             image.map((item ,i)=>{

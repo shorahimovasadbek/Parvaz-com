@@ -167,6 +167,14 @@
     display: inline-block;
     margin-top: 10px;
   }
+  .carousel-indicators{
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    border-radius: 50px;
+    width: 90%;
+    margin-left: 25px !important;
+    padding: 0 5px !important;
+    /* box-sizing: border-box !important; */
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -175,7 +183,86 @@
     object-fit: cover;
     margin-right: 30px;
   }
+  .carousel-indicators [data-bs-target]{
+    width: 100%;
+  }
+  .carousel-indicators [data-bs-target]:nth-child(1){
+    background-image: url("../../../assets/header/pcv1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
   
+  .carousel-indicators [data-bs-target]:nth-child(2){
+    background-image: url("../../../assets/header/pcv2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(3){
+    background-image: url("../../../assets/header/pcv3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(4){
+    background-image: url("../../../assets/header/qoy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(5){
+    background-image: url("../../../assets/header/bik.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(6){
+    background-image: url("../../../assets/header/floor.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(7){
+    background-image: url("../../../assets/header/tovuq.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .carousel-indicators{
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    border-radius: 50px;
+    width: 90%;
+    margin-left: 15px !important;
+    padding: 0 5px !important;
+    /* box-sizing: border-box !important; */
+  }
   .parvaz{
     font-size: 30px;
   }
