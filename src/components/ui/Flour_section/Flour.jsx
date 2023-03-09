@@ -43,7 +43,6 @@ export default function Floor() {
 
   return (
     <div className='big_content'>
-      <Header_wiev state = {{img: background_flour, text: 'Flour', subtitl:'Cengiz Flour'}}/>
       <div className="container">
         <p className='products d-none d-lg-block'>Products</p>
         <p className='border-bottom border-3 d-none d-lg-block'></p>
