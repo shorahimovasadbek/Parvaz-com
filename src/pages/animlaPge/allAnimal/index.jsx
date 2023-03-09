@@ -43,7 +43,6 @@ const Index = () => {
                 <div className="py-3">
                     <Card mass={mass}  />
                 </div>
-
             </div>
         </div>
     );

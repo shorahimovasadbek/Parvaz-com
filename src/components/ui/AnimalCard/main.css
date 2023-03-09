@@ -49,6 +49,8 @@
 .botsec p {
   margin-top: 25px;
 }
+
+
 @media (min-width: 1440px) {
   .MYcard {
       position: relative;
@@ -140,8 +142,8 @@
       background-color: #0c0061;
       color: #fff;
       position: absolute;
-      bottom: 9%;
-      left: 33%;
+      bottom:13%;
+      left: 25%;
       z-index: 1;
   }
 }

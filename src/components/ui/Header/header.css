@@ -1,25 +1,23 @@
 .carousel{
   height: 100vh;
+}
+
+.body_div{
+  background-color: #000;
   background-image: url('../../../assets/header/patterns.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.body_div{
-  background-color: #000;
-}
-
 .carousel-caption {
   width: 45%;
-  height: 80%;
-  left: 8% !important;
+  left: 5% !important;
 }
 
 .carousel-item img{
   height: 500px;
   object-fit: cover;
-  margin-right: 70px;
 }
 
 .carousel-inner{
@@ -135,7 +133,7 @@
 
 @media only screen and (max-width: 992px) {
   .carousel{
-    height: 100vh;
+    height: 50vh;
   }
 
   .carousel-item img{
@@ -262,7 +260,7 @@
 @media only screen and (max-width: 760px) {
 
   .carousel{
-    height: 93vh;
+    height: 60vh;
     background-image: url('../../../assets/header/patterns.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -270,9 +268,12 @@
   }
 
   .carousel-inner{
-    top: 15% !important;
+    top: 30% !important;
   }
-
+  .carousel-item img{
+    opacity: .8;
+    /* left: -200px; */
+  }
   .carousel-indicators [data-bs-target]:nth-child(2){
     margin: 0 8px;
   }
@@ -357,13 +358,13 @@
     width: max-content;
     height: max-content;
     margin: 0 auto !important;
-    top: 90%;
+    top: 85%;
   }
 
   .carousel-item img{
-    height: 500px;
+    height: 220px !important;
     object-fit: cover;
-    margin-right: 30px;
+    margin-right: -10%;
   }
   
   .parvaz{

@@ -13,17 +13,20 @@ const Index = () => {
         {
             image: img,
             title: 'Advantages of our Products',
-            pas: 'If you are looking for high-quality PVC proﬁles, then you are on the right path. Before choosing  PVC proﬁle, you should consider quality because it plays a big role. It should be super drip wind, gaskets should be heat, noise, ﬁre, water and dust resistant'
+            pas: 'If you are looking for high-quality PVC proﬁles, then you are on the right path. Before choosing  PVC proﬁle, you should consider quality because it plays a big role. It should be super drip wind, gaskets should be heat, noise, ﬁre, water and dust resistant',
+            pass: '/akwin'
         },
         {
             image: img1,
             title: 'Our flours',
-            pas: 'The products are producing with the best and most excellent quality under supervision of Turkish experts by Turkish and German machineries. All feed are producing by using the best quality raw materials, and special vitamins and minerals with Turkish standards that has the most excellent quality'
+            pas: 'The products are producing with the best and most excellent quality under supervision of Turkish experts by Turkish and German machineries. All feed are producing by using the best quality raw materials, and special vitamins and minerals with Turkish standards that has the most excellent quality',
+            pass: '/flour'
         },
         {
             image: img2,
             title: 'Parvazprof Industrial & Production Company',
-            pas: 'Parvazprof Industrial and Production Company is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan '
+            pas: 'Parvazprof Industrial and Production Company is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan ',
+            pass: '/animal'
         },
         {
             image: img4,
@@ -41,14 +44,14 @@ const Index = () => {
                 mass.map((item ,i)=>{
                     return(
                         <div key={i} className='my-5' >
-                            <div className="myrow row my-5 g-0">
-                                <div className={`${i%2===0 ? 'cols col-12 col-sm-6 col-md-6   ' : 'box1 colss col-12 col-sm-6 col-md-6  '}`} data-aos="zoom-in-up" data-aos-duration='1000'>
+                            <div className="myrow row g-0">
+                                <div className={`${i%2===0 ? 'cols col-12 col-sm-6 col-md-6   ' : 'box1 colss col-12 col-sm-6 col-md-6 text-end  '}`} data-aos="zoom-in-up" data-aos-duration='1000'>
                                     <img src={item.image} alt="pvc" />
                                 </div>
                                 <div className="cols1 col-12 col-sm-6 col-md-6 text-start text-md-start" data-aos="zoom-in-down" data-aos-duration='1000'>
                                     <h4>{item.title}</h4>
                                     <p>{item.pas}</p>
-                                    <Btn/>
+                                    <Btn pass={item.pass}/>
                                 </div>
                             </div>
                             <Line/>

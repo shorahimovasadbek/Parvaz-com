@@ -20,7 +20,7 @@ export default function App() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="#home"><img src={img_logo} alt="logo img" /></Navbar.Brand>
+        <Navbar.Brand href="#home"><Link to='/'><img src={img_logo} alt="logo img" /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav ps-3">
           <Nav className="me-auto"></Nav>

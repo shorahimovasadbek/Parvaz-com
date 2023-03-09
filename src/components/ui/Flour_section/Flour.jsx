@@ -4,10 +4,8 @@ import flour1 from '../../../assets/flour/floor1.png'
 import flour2 from '../../../assets/flour/floor2.png'
 import flour3 from '../../../assets/flour/floor3.png'
 import flour4 from '../../../assets/flour/floo4.png'
-import background_flour from '../../../assets/flour/floor_header.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import Header_wiev from '../ProductHeader'
 
 export default function Floor() {
   const [mass, setMass] = useState([
@@ -44,12 +42,10 @@ export default function Floor() {
   return (
     <div className='big_content'>
       <div className="container">
-        <p className='products d-none d-lg-block'>Products</p>
-        <p className='border-bottom border-3 d-none d-lg-block'></p>
         {
           (mass) && mass.map((item, index) => {
             return (
-              <div className='row align-items-center content'>
+              <div className='row align-items-center content mt-5'>
                 <div  data-aos-duration='1000' data-aos='fade-up' className="col-lg-4 col-12 p-4">
                   <img style={{ width: '100%', height: '100%' }} src={item.src} alt="flou1" />
                 </div>
