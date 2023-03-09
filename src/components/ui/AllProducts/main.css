@@ -1,29 +1,33 @@
 .myrow{
-    display: flex !important;
-    justify-content: space-between !important;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     color: #fff;
-}   
-
-
-
-.cols{
-    width: 400px;
-    height: 400px; 
 }
-
+.cols{
+    width: 350px;
+    height: 400px;
+    
+}
 .colss{
-    width: 400px;
+    width: 350px;
     height: 400px;
     order: 2; 
 }
-
-.cols img{
+.cols {
     width: 350px;
+    height: 400px;
 }
-.colss img{
+.cols img , .colss img{
+    width: 350px !important;
+    height: 300px;
+    object-fit: contain;
+}
+.colss {
     width: 350px;
+    height: 350px;
+    float: right;
 }
 .cols1{
     width: 500px;
@@ -33,21 +37,27 @@
 }
 
 @media (max-width: 990px) {
-    .cols img{
-        width: 350px;
+    .cols{
+        width: 300px;
     }
-    .colss img{
-        width: 350px;
+    .colss {
+        width: 300px;
     }
 }
 @media (max-width: 750px ) {
-    .cols img{
-        width: 320px;
+    .cols {
+        width: 280px;
     }
-    .colss img{
-        width: 320px;
+    .colss {
+        width: 280px;
     }
-    .box1{
-        flex-direction: column-reverse;
+    .colss{
+        order: 0;
     }
+    .cols img , .colss img{
+        width: 300px !important;
+        height: 300px;
+        object-fit: contain;
+    }
+   
 }

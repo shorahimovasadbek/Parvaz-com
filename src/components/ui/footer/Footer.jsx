@@ -20,7 +20,7 @@ export default function App() {
             <MDBCol data-aos-duration='1000' data-aos="fade-up" md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
-                <img src={logo_img} alt="logo img" />
+                <img className='img_logo' src={logo_img} alt="logo img" />
               </h6>
               <p>
                 Parvazprof Industrial and Production Company (the Company) is a company registered in Ministry of Commerce and Industries, activity of the Company is to manufacture and sell all kinds of PVC proﬁles for windows and doors items.
@@ -71,7 +71,7 @@ export default function App() {
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         Powered by:
         <a className='text-reset fw-bold ms-3' href='#'>
-          U. Nurilloh, SH. Asadbek, A. Zufarbek
+          Soff Hub
         </a>
       </div>
     </MDBFooter>

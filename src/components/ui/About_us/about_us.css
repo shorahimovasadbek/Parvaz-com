@@ -11,6 +11,7 @@
 
 
 .description {
+  width: 100% !important;
   font-size: 17px;
   font-weight: lighter;
 }

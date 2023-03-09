@@ -7,7 +7,7 @@ import flour4 from '../../../assets/flour/floo4.png'
 import background_flour from '../../../assets/flour/floor_header.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import Header_wiev from '../Header_wiev__section/Header_wiev'
+import Header_wiev from '../ProductHeader'
 
 export default function Floor() {
   const [mass, setMass] = useState([
@@ -43,10 +43,10 @@ export default function Floor() {
 
   return (
     <div className='big_content'>
-      <Header_wiev state = {{src: background_flour, name: 'Flour', title:'Cengiz Flour'}}/>
+      <Header_wiev state = {{img: background_flour, text: 'Flour', subtitl:'Cengiz Flour'}}/>
       <div className="container">
-        <p className='products'>Products</p>
-        <p className='border-bottom border-3'></p>
+        <p className='products d-none d-lg-block'>Products</p>
+        <p className='border-bottom border-3 d-none d-lg-block'></p>
         {
           (mass) && mass.map((item, index) => {
             return (

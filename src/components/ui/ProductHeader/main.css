@@ -9,6 +9,7 @@
 @media (max-width: 768px) {
     .headerbg{
         height: 50vh;
+        padding-top: 100px !important;
     }
 }
 @media (max-width: 391px) {

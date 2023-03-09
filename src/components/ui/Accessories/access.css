@@ -2,14 +2,6 @@
   color: white;
 }
 
-.header{
-  background-image: url('../../../assets/flour/floor_header.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
 .pattern_black{
   width: 100%;
   height: 100%;
@@ -32,8 +24,7 @@
 
 .products{
   font-size: 60px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-family: 'Italiana', serif;
 }
 
@@ -67,14 +58,14 @@
   color: #0C0061;
   font-family: 'Italiana', serif;
   padding: 10px 20px;
+  min-width: 200px;
+  left: calc(100% - 54%);
 }
 
 .information_div{
-  width: 200px;
-  overflow-x: scroll;
+  width: 100%;
+  height: 100%;
   position: relative;
-  top: -16px;
-  right: -151px;
 }
 
 .information_div::-webkit-scrollbar{
@@ -87,12 +78,13 @@
   }
 
   .information_div{
-    width: 200px;
     overflow-x: scroll;
     position: relative;
-    top: 6px;
-    right: -130px;
+    right: 30px;
   }
+
+  
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -117,13 +109,4 @@
   .text_button{
     font-size: 14px;
   }
-
-  .information_div{
-    width: 200px;
-    overflow-x: scroll;
-    position: relative;
-    top: -25px;
-    right: -119px;
-  }
 }
-

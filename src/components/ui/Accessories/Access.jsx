@@ -31,77 +31,77 @@ export default function Access() {
   const [mass, setMass] = useState([
     {
       src: access1,
-      name: 'Plastic Window Handle No Iron (Dila)',
+      name: 'Plastic Window Handle',
       back_url: back
     },
     {
       src: access2,
-      name: 'Plastic Door Handle without Barrel with Iron Balcony',
+      name: 'Plastic Door Handle',
       back_url: back
     },
     {
       src: access3,
-      name: 'Plastic Yale Door Handle with Iron “With Spring”',
+      name: 'Plastic Yale Door Handle',
       back_url: back
     },
     {
       src: access4,
-      name: 'Plastic Window Handle No Iron (Dila)',
+      name: 'Plastic Window Handle',
       back_url: back
     },
     {
       src: access5,
-      name: 'Plastic Yale Door Handle with Iron “With Spring”',
+      name: 'Plastic Yale Door Handle',
       back_url: back
     },
     {
       src: access6,
-      name: 'Zamak Hinges and Slide Wheels',
+      name: 'Zamak Hinges',
       back_url: back
     },
     {
       src: access7,
-      name: 'Zamak Hinges and Slide Wheels',
+      name: 'Zamak Hinges',
       back_url: back
     },
     {
       src: access8,
-      name: 'Zamak Window Bars and Their Sheet Substitutes',
+      name: 'Zamak Window',
       back_url: back
     },
     {
       src: access9,
-      name: 'Zamak Window Bars and Their Sheet Substitutes',
+      name: 'Zamak Window',
       back_url: back
     },
     {
       src: access10,
-      name: 'Zamak Window Bars and Their Sheet Substitutes',
+      name: 'Zamak Window',
       back_url: back
     },
     {
       src: access11,
-      name: 'Zamak Window Bars and Their Sheet Substitutes',
+      name: 'Zamak Window',
       back_url: back
     },
     {
       src: access12,
-      name: 'Zamak Window Bars and Their Sheet Substitutes',
+      name: 'Zamak Window',
       back_url: back
     },
     {
       src: access13,
-      name: 'Zamak Window Bars and Their Sheet Substitutes',
+      name: 'Zamak Window',
       back_url: back
     },
     {
       src: access14,
-      name: 'Zamak Window Bars and Their Sheet Substitutes',
+      name: 'Zamak Window',
       back_url: back
     },
     {
       src: access15,
-      name: 'Zamak Meeting Rail Joint Wedges',
+      name: 'Zamak Meeting',
       back_url: back
     },
   ])
@@ -111,8 +111,8 @@ export default function Access() {
     <div className='big_content'>
       <Header_wiev state={{src:background_access, name:'ACCESSORIES', title:'Incredible at incredible value.'}}/>
       <div className="container">
-        <p className='products'>Accessories</p>
-        <p className='border-bottom border-3'></p>
+        <p className='products d-none d-lg-block'>Accessories</p>
+        <p className='border-bottom border-3 d-none d-lg-block'></p>
         <div className='row align-items-center'>
           {
             (mass) && mass.map((item, index) => {
@@ -121,7 +121,7 @@ export default function Access() {
                   <div className="col_back__img">
                     <img data-aos='fade-down' data-aos-duration='800' src={item.back_url} alt={item.name} />
                     <img data-aos='fade-up' data-aos-duration='800' className='img' src={item.src} alt={item.name} />
-                    <div className='information_div'><p  data-aos='fade-down'  data-aos-duration='800' className='text_button'>{item.name}</p></div>
+                    <div className='information_div'><p  data-aos='fade-down'  data-aos-duration='800' className='text_button'><span className='span'>{item.name}</span></p></div>
                   </div>
                 </div>
               )

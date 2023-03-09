@@ -6,15 +6,24 @@ import Line from '../../../components/ui/LIne'
 import img1 from  '../../../assets/sigir.png'
 import img2 from '../../../assets/meatCow.png'
 import Card from '../../../components/ui/AnimalCard'
+
+import bg from '../../../assets/HOmeImage/1.png'
 const Index = () => {
+    const styles = {
+        backgroundImage: `url(${bg})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
+        };
     const mass =[
         {
             image: img1,
-            text: 'Dairy cattle '
+            text: 'Dairy cattle ',
+            page: '/animalabout'
         },
         {
             image: img2,
-            text: 'Meat products' 
+            text: 'Meat products',
+            page: '/animalabout'
         },
     ]
     return (

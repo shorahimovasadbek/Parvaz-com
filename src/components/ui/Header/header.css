@@ -7,7 +7,7 @@
 }
 
 .body_div{
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #000;
 }
 
 .carousel-caption {
@@ -134,22 +134,26 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .carousel{
+    height: 100vh;
+  }
+
   .carousel-item img{
-    height: 300px;
+    height: 200px;
     object-fit: cover;
-    margin-right: 30px;
   }
 
   .parvaz{
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .paragraph{
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .carousel-caption{
-    width: 80%
+    width: 50%;
+    height: 100%;
   }
 
   .body_div{
@@ -157,7 +161,7 @@
   }
 
   .carousel-inner{
-    top: 20%;
+    top: 30%;
   }
 
   .learn_more{
@@ -167,9 +171,195 @@
     display: inline-block;
     margin-top: 10px;
   }
+  .carousel-indicators [data-bs-target]:nth-child(2){
+    margin: 0 8px;
+  }
+  .carousel-indicators [data-bs-target]:nth-child(4){
+    margin: 0 8px;
+  }
+  .carousel-indicators [data-bs-target]:nth-child(6){
+    margin: 0 8px;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(1){
+    background-image: url("../../../assets/header/pcv1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(2){
+    background-image: url("../../../assets/header/pcv2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(3){
+    background-image: url("../../../assets/header/pcv3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(4){
+    background-image: url("../../../assets/header/qoy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(5){
+    background-image: url("../../../assets/header/bik.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(6){
+    background-image: url("../../../assets/header/floor.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(7){
+    background-image: url("../../../assets/header/tovuq.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators{
+    width: max-content;
+    height: max-content;
+    margin: 0 auto !important;
+    top: 80%;
+  }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 760px) {
+
+  .carousel{
+    height: 93vh;
+    background-image: url('../../../assets/header/patterns.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .carousel-inner{
+    top: 15% !important;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(2){
+    margin: 0 8px;
+  }
+  .carousel-indicators [data-bs-target]:nth-child(4){
+    margin: 0 8px;
+  }
+  .carousel-indicators [data-bs-target]:nth-child(6){
+    margin: 0 8px;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(1){
+    background-image: url("../../../assets/header/pcv1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(2){
+    background-image: url("../../../assets/header/pcv2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(3){
+    background-image: url("../../../assets/header/pcv3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(4){
+    background-image: url("../../../assets/header/qoy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(5){
+    background-image: url("../../../assets/header/bik.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(6){
+    background-image: url("../../../assets/header/floor.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target]:nth-child(7){
+    background-image: url("../../../assets/header/tovuq.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators{
+    width: max-content;
+    height: max-content;
+    margin: 0 auto !important;
+    top: 90%;
+  }
+
   .carousel-item img{
     height: 500px;
     object-fit: cover;
@@ -204,7 +394,6 @@
     margin-top: 10px;
   }
 }
-
 
 
 

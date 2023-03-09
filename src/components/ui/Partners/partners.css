@@ -1,4 +1,5 @@
 .sliderssss img{
-  height: 250px;
+  min-height: 250px;
   width: 250px;
+  object-fit: contain;
 }

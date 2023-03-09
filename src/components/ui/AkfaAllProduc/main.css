@@ -171,7 +171,12 @@
     }
     .mycard{
         padding: 0  !important;
+
+        /* overflow: hidden; */
     }
+    /* .textSize{
+        width: 10% !important;
+    } */
 }
 @media (max-width: 740px) {
     .imgbg{
@@ -187,5 +192,11 @@
         width: 200px;
         height: 250px;
     
+    }
+    .imgSec1{
+        order: 0 !important;
+    }
+    .textSize{
+        width: 100% !important;
     }
 }

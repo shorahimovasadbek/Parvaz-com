@@ -12,11 +12,17 @@ import img1 from '../../../assets/akfa.png'
 import img2 from '../../../assets/akfa1.png'
 import img3 from '../../../assets/akfa3.png'
 import img4 from '../../../assets/akfa4.png'
-
-
+import one1 from '../../../assets/HOmeImage/1.png'
+import Nav from '../../../components/ui/Navbar/Navbar'
+import Footer from '../../../components/ui/footer/Footer'
 import Card from '../../../components/ui/AkfaAllProduc'
 
 const Index = () => {
+    const styles = {
+        backgroundImage: `url(${one1})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
+        };
     const mass =[
         {
             bg: bg,
@@ -43,12 +49,11 @@ const Index = () => {
             about: 'Convenience, functionality, beauty in your interior'
         },
     ]
-    return (
-        <div>
+
+    return (             
+        <div style={styles}>
             <Header img={img} text='Parvazprof Industrial and Production Company' subtitl='Products' />
             <div className="container">
-                <H1 info='Products' />
-                <Line />
                 <Card mass={mass}/>
             </div>
         </div>
