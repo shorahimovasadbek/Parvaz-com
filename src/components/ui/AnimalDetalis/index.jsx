@@ -4,6 +4,7 @@ import Btn from '../Buttons/Button'
 import img3 from '../../../assets/oo.jpeg'
 import img1 from '../../../assets/yem.png'
 import img2 from '../../../assets/qop.jpg'
+import { Link } from 'react-router-dom';
 
 const Index = () => {
 const [img, setimg] = useState(img3);
@@ -19,7 +20,7 @@ const image =[
                     <div className=" mx-3 maincard">
                         <img src={img} alt=""  className='w-100  '/>
                     </div>
-                    <div className='col-6 mx-3 btn'><button className='btn btn-outline-light rounded-pill w-100'>buy now</button></div>
+                    <div className='col-6 mx-3 btn'><button className='btn btn-outline-light rounded-pill w-100'><Link to='/contact'>buy now</Link></button></div>
                     <div className="box" >
                         {
                             image.map((item ,i)=>{

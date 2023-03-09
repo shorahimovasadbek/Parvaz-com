@@ -1,6 +1,5 @@
 import React from 'react';
 import './main.css'
-import img from '../../../assets/headerbg.png'
 import Paragraf from '../Paragraf'
 import H1 from '../H1/Header1'
 

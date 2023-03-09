@@ -12,7 +12,7 @@ import Akfa from './pages/AkfaPages/AkfaMain'
 import AkfaAbout from './pages/AkfaPages/AkfaAbout'
 import Flour from './pages/FlourPage'
 import Animal from './pages/animlaPge/allAnimal'
-import Contact from './components/ui/Contact/Contact';
+import Contact from './pages/Contact';
 import Sigir from './pages/animlaPge/sgirPage'
 import AnimalAbout from './pages/animlaPge/Aboutpage'
 import { BrowserRouter,Router, Routes, Route } from 'react-router-dom'

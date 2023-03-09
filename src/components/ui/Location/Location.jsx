@@ -6,6 +6,7 @@ import LocationImg3 from '../../../assets/Location images/one.png'
 import LocationImg4 from '../../../assets/Location images/sex.png'
 import LocationImg from '../../../assets/Location images/location.png'
 import Header1 from '../H1/Header1'
+import { Link } from 'react-router-dom'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -48,7 +49,7 @@ export default function Location() {
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>Uzbekistan</p>
-            <span>Location</span>
+            <span><Link to='/contact'>Location</Link></span>
           </span>
         </div>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
@@ -56,7 +57,7 @@ export default function Location() {
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>Afganistan</p>
-            <span>Location</span>
+            <span><Link to='/contact'>Location</Link></span>
           </span>
         </div>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
@@ -64,7 +65,7 @@ export default function Location() {
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>Amerika</p>
-            <span>Location</span>
+            <span><Link to='/contact'>Location</Link></span>
           </span>
         </div>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
@@ -72,7 +73,7 @@ export default function Location() {
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>Kazakhistan</p>
-            <span>Location</span>
+            <span><Link to='/contact'>Location</Link></span>
           </span>
         </div>
       </div>

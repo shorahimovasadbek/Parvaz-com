@@ -6,3 +6,16 @@
     opacity: 1;
     cursor: pointer;
 }
+
+@media (max-width: 576px) {
+    h4{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    li{
+        width: 80% !important;
+        font-size: 12px;
+        line-height: 20px;
+        float: right !important;
+    }
+}

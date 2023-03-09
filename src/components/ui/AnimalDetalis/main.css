@@ -5,6 +5,9 @@
     border-radius: 20px;
     opacity: .5;
 }
+a{
+    color: #fff;
+}
 .carddd{
     opacity: 1;
 }
@@ -13,7 +16,8 @@
 }
 .maincard{
     width: 100%;
-    height: 500px;
+    height: 60vh !important;
+    margin: 0 auto !important ;
 }
 .maincard img{
     height: 100%;
@@ -23,6 +27,8 @@
     margin: 0 auto !important;
 }
 
-/* @media (max-width: ) {
-    
-} */
+@media (max-width: 576px ) {
+    .maincard{
+        height: 40vh !important;
+    }
+}

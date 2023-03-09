@@ -10,6 +10,7 @@ import bik from '../../../assets/header/bik.png'
 import floor from '../../../assets/header/floor.png'
 import tovuq from '../../../assets/header/tovuq.png'
 import Btn from '../Buttons/Button'
+import { Link } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
 
 export default function Header() {
@@ -31,7 +32,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn/>
+              <Btn pass='/akwin'/>
             </div>
           </div>
           <div class="carousel-item">
@@ -39,7 +40,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn/>
+              <Btn pass='/akwin'/>
             </div>
           </div>
           <div class="carousel-item">
@@ -47,7 +48,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn/>
+              <Btn pass='/akwin'/>
             </div>
           </div>
           <div class="carousel-item">
@@ -55,7 +56,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn/>
+              <Btn pass='/animal'/>
             </div>
           </div>
           <div class="carousel-item">
@@ -63,7 +64,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn/>
+              <Btn pass='/animal'/>
             </div>
           </div>
           <div class="carousel-item">
@@ -71,7 +72,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn/>
+              <Btn pass='/flour'/>
             </div>
           </div>
           <div class="carousel-item">
@@ -79,7 +80,7 @@ export default function Header() {
             <div class="carousel-caption text-start">
               <p className='parvaz'>Parvazprof Industrial and Production Company</p>
               <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn/>
+              <Btn pass='/animal'/>
             </div>
           </div>
         </div>

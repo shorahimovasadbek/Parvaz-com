@@ -27,12 +27,12 @@ const Index = () => {
         },
     ]
     return (
-        <div>
+        <div style={styles}>
             <ProductHeader img={img} text='Cattle And Claf Feeds' subtitl='Products' />
-            <div className="container">
+            <div className="container" >
                 <H1 info='Products' />
                 <Line />
-                <div className="py-3">
+                <div className="py-3" >
                     <Card mass={mass} />
                 </div>
             </div>
