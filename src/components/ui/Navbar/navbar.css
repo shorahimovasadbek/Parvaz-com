@@ -6,6 +6,10 @@
   z-index: 1003;
 }
 
+.navbar-nav .nav-link > a{
+  text-decoration: none !important ;
+  color: #fff !important;
+}
 
 .navbar img {
   height: 50px;
@@ -16,11 +20,16 @@
   z-index: 1002;
 }
 
+#collasible-nav-dropdown{
+  color: #fff;
+}
+
 .language #collasible-nav-dropdown {
   border: 1px solid white;
   border-radius: 50%;
   font-size: 15px;
   padding: 5px;
+
 }
 
 .language .dropdown-toggle::after {
@@ -40,7 +49,11 @@ button:focus:not(:focus-visible) {
   color: white;
 }
 
-.dropdown-item {
+.dropdown-item a{
+  color: white !important;
+}
+
+.dropdown-item{
   color: white !important;
 }
 
