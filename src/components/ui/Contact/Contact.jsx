@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import './contact.css'
-import Header_wiev from '../ProductHeader'
 import contact_back from '../../../assets/Contact/contact.png'
 import location from '../../../assets/Contact/contact_location.png'
 import Aos from 'aos'
@@ -135,8 +134,7 @@ export default function Contact() {
 
   return (
     <div className='big_content'>
-      <Header_wiev state={{ img: contact_back, text: 'Contact' }} />
-      <h1 className='text-center'>Location</h1>
+      <h1 className='text-center d-none d-lg-block'>Location</h1>
       <div className='context'>
         {
           (mass) && mass.map((item, index) => {
@@ -148,7 +146,7 @@ export default function Contact() {
                     {
                       item[1].map((result, i) => {
                         return (
-                          <div data-aos='fade-up' data-aos-duration='1000' className='my-4 d-flex  align-items-center flex-wrap' key={i}>
+                          <div data-aos='fade-up' data-aos-duration='1000' className='d-flex  align-items-center flex-wrap' key={i}>
                             <div className='description'>
                               <li className='main_item'>{result.name}</li>
                               <li>{result.number}</li>

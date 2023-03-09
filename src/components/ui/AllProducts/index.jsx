@@ -42,7 +42,7 @@ const Index = () => {
                     return(
                         <div key={i} className='my-5' >
                             <div className="myrow row my-5 g-0">
-                                <div className={`${i%2===0 ? 'cols col-12 col-sm-6 col-md-6  text-start text-md-start ' : 'box1 colss col-12 col-sm-6 col-md-6  text-start text-md-start'}`} data-aos="zoom-in-up" data-aos-duration='1000'>
+                                <div className={`${i%2===0 ? 'cols col-12 col-sm-6 col-md-6   ' : 'box1 colss col-12 col-sm-6 col-md-6  '}`} data-aos="zoom-in-up" data-aos-duration='1000'>
                                     <img src={item.image} alt="pvc" />
                                 </div>
                                 <div className="cols1 col-12 col-sm-6 col-md-6 text-start text-md-start" data-aos="zoom-in-down" data-aos-duration='1000'>
