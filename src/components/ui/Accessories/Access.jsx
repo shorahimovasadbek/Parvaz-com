@@ -16,17 +16,17 @@ import access14 from '../../../assets/Access_img/access14.jpg'
 import access15 from '../../../assets/Access_img/access15.jpg'
 import back from '../../../assets/Access_img/back.png'
 import background_access from '../../../assets/Access_img/background_access.png'
+import Header from '../ProductHeader/'
 import './access.css'
 import 'aos/dist/aos.css'
 import Aos from 'aos'
-import Header_wiev from '../Header_wiev__section/Header_wiev'
 
 export default function Access() {
 
   useEffect(() => {
     Aos.init()
   }, [])
-  
+
 
   const [mass, setMass] = useState([
     {
@@ -109,10 +109,9 @@ export default function Access() {
 
   return (
     <div className='big_content'>
-      <Header_wiev state={{src:background_access, name:'ACCESSORIES', title:'Incredible at incredible value.'}}/>
+      <Header img={background_access} text='Accessories' subtitl='Products' />
       <div className="container">
-        <p className='products d-none d-lg-block'>Accessories</p>
-        <p className='border-bottom border-3 d-none d-lg-block'></p>
+
         <div className='row align-items-center'>
           {
             (mass) && mass.map((item, index) => {
@@ -121,7 +120,7 @@ export default function Access() {
                   <div className="col_back__img">
                     <img data-aos='fade-down' data-aos-duration='800' src={item.back_url} alt={item.name} />
                     <img data-aos='fade-up' data-aos-duration='800' className='img' src={item.src} alt={item.name} />
-                    <div className='information_div'><p  data-aos='fade-down'  data-aos-duration='800' className='text_button'><span className='span'>{item.name}</span></p></div>
+                    <div className='information_div'><p data-aos='fade-down' data-aos-duration='800' className='text_button'><span className='span'>{item.name}</span></p></div>
                   </div>
                 </div>
               )

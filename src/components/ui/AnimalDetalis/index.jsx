@@ -20,7 +20,7 @@ const image =[
                     <div className=" mx-3 maincard">
                         <img src={img} alt=""  className='w-100  '/>
                     </div>
-                    <div className='col-6 mx-3 btn'><button className='btn btn-outline-light rounded-pill w-100'><Link to='/contact'>buy now</Link></button></div>
+                    <div className='col-6 mx-3 btn'><button className='btn btn-outline-light rounded-pill w-100'><Link onClick={() => {window.location.href = '/contact'}}>buy now</Link></button></div>
                     <div className="box" >
                         {
                             image.map((item ,i)=>{

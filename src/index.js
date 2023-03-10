@@ -15,6 +15,7 @@ import Animal from './pages/animlaPge/allAnimal'
 import Contact from './pages/Contact';
 import Sigir from './pages/animlaPge/sgirPage'
 import AnimalAbout from './pages/animlaPge/Aboutpage'
+import Access from './components/ui/Accessories/Access'
 import { BrowserRouter,Router, Routes, Route } from 'react-router-dom'
 
 
@@ -36,6 +37,7 @@ root.render(
           <Route path='/sigir' element={<Sigir />} />
           <Route path='/animalabout' element={<AnimalAbout />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/access' element={<Access />} />
         </Route>
       </Routes>
     </BrowserRouter>

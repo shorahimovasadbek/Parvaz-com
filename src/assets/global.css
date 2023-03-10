@@ -3,7 +3,6 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: #0C0032 !important;
-    overflow-x: hidden !important;
 }
 Link{
     text-decoration: none !important;

@@ -4,7 +4,7 @@ import './main.css'
 const Index = () => {
     const massiv = [
         {
-            Name: 'Features',
+            Name: 'FEATURES',
             about: [{ i: 'Balanced with proteins, energy, vitamins and minerals for healthy growth cycles of laying hen chicks' },
             { i: 'Produced in crumble form' }
             ]

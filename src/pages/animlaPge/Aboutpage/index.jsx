@@ -20,10 +20,8 @@ const Index = () => {
             <div className="container">
                 <Header1 info='Meet Feeds'/>
                 <Card/>
-                <Line/>
                 <Header1 info='About Feeds'/>
                 <CardAbout/>
-                <Line/>
             </div>
         </div>
     );

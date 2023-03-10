@@ -38,7 +38,7 @@ const Index = (props) => {
                                         item.about
                                     }
                                 </p>
-                                <Buttonn pass='/akfaabout' />
+                                <Buttonn pass = {item.pass} />
                             </div>
                             <div className={`${index%2===0? 'hline':'twoLine' }`} ></div>
                             <div className={`${index%2===0? 'hline1':'twoLine2' }`}  ></div>

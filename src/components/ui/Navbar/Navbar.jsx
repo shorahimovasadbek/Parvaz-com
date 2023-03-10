@@ -20,25 +20,25 @@ export default function App() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="#home"><Link to='/'><img src={img_logo} alt="logo img" /></Link></Navbar.Brand>
+        <Navbar.Brand href="#home"><Link onClick={() => {window.location.href = '/'}}><img src={img_logo} alt="logo img" /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav ps-3">
           <Nav className="me-auto"></Nav>
           <Nav className='ms-4 ms-md-0'>
-            <Nav.Link href="#deets"><Link to='/'>Home</Link></Nav.Link>
+            <Nav.Link href="#deets"><Link onClick={() => {window.location.href = '/'}}>Home</Link></Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
-              <Link to='/about'>
+              <Link onClick={() => {window.location.href = '/about'}}>
                 About us
               </Link>
             </Nav.Link>
             <NavDropdown title="Products" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1"><Link to='/akwin'>Akwin </Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1"><Link onClick={() => {window.location.href = '/akwin'}}>Akwin </Link></NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                <Link to='/animal'>Animal foods</Link>
+                <Link onClick={() => {window.location.href = '/animal'}}>Animal foods</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3"><Link to='flour'>Floor</Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3"><Link onClick={() => {window.location.href = '/flour'}}>Floor</Link></NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href='#'><Link to='/contact'>Contact</Link></Nav.Link>
+            <Nav.Link href='#'><Link onClick={() => {window.location.href = '/contact'}}>Contact</Link></Nav.Link>
             <NavDropdown className='ms-0 ms-lg-4 language' title="Eng" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1" className='text-muted' disabled> Eng </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.1"> Ru </NavDropdown.Item>

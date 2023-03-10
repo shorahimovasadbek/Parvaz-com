@@ -28,25 +28,29 @@ const Index = () => {
             bg: bg,
             img: img0,
             name: 'Vinka 7000',
-            about: 'Plastic window best meet the climatic requirements of world and are suitable for glazing residential buildings, office premises and industrial buildings.'
+            about: 'Plastic window best meet the climatic requirements of world and are suitable for glazing residential buildings, office premises and industrial buildings.',
+            pass: '/akfaabout'
         },
         {
             bg: bg1,
             img: img1,
             name: 'Vinka 6200',
-            about: 'Vinka 6200 profiles combine premium materials, special construction and modern design. The new line of windows creates comfort, making the house light, cozy and quiet'
+            about: 'Vinka 6200 profiles combine premium materials, special construction and modern design. The new line of windows creates comfort, making the house light, cozy and quiet',
+            pass: '/akfaabout'
         },
         {
             bg: bg2,
             img: img2,
             name: 'Vinka 6000',
-            about: 'Vinka 6000 Trio are suitable for both small construction solutions in private houses and for large-scale projects in business complexes and offices.'
+            about: 'Vinka 6000 Trio are suitable for both small construction solutions in private houses and for large-scale projects in business complexes and offices.',
+            pass: '/akfaabout'
         },
         {
             bg: bg3,
             img: img4,
             name: 'ACCESSORIES',
-            about: 'Convenience, functionality, beauty in your interior'
+            about: 'Convenience, functionality, beauty in your interior',
+            pass: '/access'
         },
     ]
 

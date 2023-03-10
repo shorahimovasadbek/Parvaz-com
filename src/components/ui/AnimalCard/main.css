@@ -124,7 +124,7 @@
 }
 @media (max-width: 768px) {
   .maincard{
-    height: 60vh !important;
+    height: 80vh !important;
     margin: 0 auto;
   }
   .MYcard {
@@ -153,9 +153,8 @@
 }
 
 @media (max-width: 576px) {
-  .maincard{
-    height: 120vh !important;
-  }
+  
+  
   .MYcard {
       position: relative;
       /* width: 300px;
@@ -179,4 +178,5 @@
       left: 28%;
       z-index: 1;
   }
+  
 }

@@ -38,7 +38,6 @@ const Index = () => {
         <div style={styles}  >
             <Headd img={img} text='Animals Feed ' subtitl='Products' />
             <div className="container">
-                <Line />
                 <div className="py-3">
                     <Card mass={mass}  />
                 </div>

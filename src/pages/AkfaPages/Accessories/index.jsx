@@ -10,14 +10,14 @@ const Index = () => {
     const styles = {
         backgroundImage: `url(${img1})`,
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
         };
     return (
         <div style={styles}>
-            <Nav/>
-            <Header img={background_access} text='Vinka 7000' subtitl='Products' />
-            <Access/>
-            <Footer/>
+            
+            <div>
+                <Access/>
+            </div>
         </div>
     );
 }

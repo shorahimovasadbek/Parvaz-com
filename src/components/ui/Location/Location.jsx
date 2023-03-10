@@ -49,7 +49,7 @@ export default function Location() {
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>Uzbekistan</p>
-            <span><Link to='/contact'>Location</Link></span>
+            <span><Link onClick={() => {window.location.href = '/contact'}}>Location</Link></span>
           </span>
         </div>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
@@ -57,7 +57,7 @@ export default function Location() {
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>Afganistan</p>
-            <span><Link to='/contact'>Location</Link></span>
+            <span><Link onClick={() => {window.location.href = '/contact'}}>Location</Link></span>
           </span>
         </div>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
@@ -65,7 +65,7 @@ export default function Location() {
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>Amerika</p>
-            <span><Link to='/contact'>Location</Link></span>
+            <span><Link onClick={() => {window.location.href = '/contact'}}>Location</Link></span>
           </span>
         </div>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
@@ -73,7 +73,7 @@ export default function Location() {
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>Kazakhistan</p>
-            <span><Link to='/contact'>Location</Link></span>
+            <span><Link onClick={() => {window.location.href = '/contact'}}>Location</Link></span>
           </span>
         </div>
       </div>
