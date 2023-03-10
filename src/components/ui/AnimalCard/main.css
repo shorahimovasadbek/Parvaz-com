@@ -7,7 +7,7 @@
   
 }
 
-.maincard {
+.mainCard {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -123,7 +123,7 @@
   }
 }
 @media (max-width: 768px) {
-  .maincard{
+  .mainCard{
     height: 80vh !important;
     margin: 0 auto;
   }
@@ -153,7 +153,10 @@
 }
 
 @media (max-width: 576px) {
-  
+  .mainCard{
+    height: 120vh !important;
+    margin: 0 auto !important;
+  }
   
   .MYcard {
       position: relative;
@@ -179,4 +182,9 @@
       z-index: 1;
   }
   
+}
+@media (max-width: 375px) {
+  .mainCard{
+    height: 160vh !important;
+  }
 }

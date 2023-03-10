@@ -10,7 +10,7 @@ const Index = (props) => {
         AOS.init()
     }, []);
     return (
-        <div className='maincard '>
+        <div className='mainCard'>
             <div className='row '>
                 {
                     props.mass.map((item, index) => {

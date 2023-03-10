@@ -14,12 +14,12 @@ a{
 .box{
     display: flex;
 }
-.maincard{
+.maincardd{
     width: 100%;
     height: 60vh !important;
     margin: 0 auto !important ;
 }
-.maincard img{
+.maincardd img{
     height: 100%;
     object-fit:  cover;
 }
@@ -28,7 +28,7 @@ a{
 }
 
 @media (max-width: 576px ) {
-    .maincard{
+    .maincardd{
         height: 40vh !important;
     }
 }
