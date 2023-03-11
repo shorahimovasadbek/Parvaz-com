@@ -1,0 +1,42 @@
+.big_content{
+  color: white;
+}
+
+.header{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+}
+
+.pattern_black{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(18, 18, 25, 0.5);
+}
+
+.texts{
+  height: 100%;
+  justify-content: center;
+  font-family: 'Italiana', serif;
+}
+
+.texts p:first-child{
+  font-size: 60px;
+}
+
+.texts p:last-child{
+  font-size: 20px;
+}
+
+.products{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Italiana', serif;
+}
+
+.content{
+  flex-wrap: wrap;
+}
+

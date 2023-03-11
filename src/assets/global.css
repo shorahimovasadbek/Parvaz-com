@@ -1,6 +1,14 @@
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #0C0032;
+    background-color: #0C0032 !important;
+}
+Link{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+a{
+    text-decoration: none !important;
 }

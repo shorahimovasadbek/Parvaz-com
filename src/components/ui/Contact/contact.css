@@ -1,0 +1,40 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+
+.main_item{
+  list-style-type: none;
+  color: gold;
+  font-size: 20px;
+  font-family: 'Italiana', serif;
+}
+
+ul{
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.map{
+  width: 50% !important;
+}
+
+.description{
+  width: 50% !important;
+}
+
+.context{
+  padding: 0 40px;
+}
+
+@media only screen and (max-width: 768px){
+  .map, .description{
+    width: 100% !important;
+    padding: 10px;
+    margin: 0 20px;
+  }
+
+  .context{
+    padding: 0;
+  }
+}
