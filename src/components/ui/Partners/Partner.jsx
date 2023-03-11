@@ -39,7 +39,7 @@ export default function Partner() {
   return (
     <div className="container">
       <Header1 info='Partners'/>
-      <Carousel className='sliderssss' infinite={true} keyBoardControl={true} responsive={responsive} autoPlay={true} autoPlaySpeed={3000} showDots={true}>
+      <Carousel className='Partners' infinite={true} keyBoardControl={true} responsive={responsive} autoPlay={true} autoPlaySpeed={3000} showDots={true}>
         <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner1_img} alt="iso_sertificat1"/></div>
         <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner2_img} alt="iso_sertificat2"/></div>
         <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner3_img} alt="iso_sertificat3"/></div>
