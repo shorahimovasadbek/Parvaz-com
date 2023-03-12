@@ -1,8 +1,8 @@
-.carousel{
+.carousel {
   height: 100vh;
 }
 
-.body_div{
+.body_div {
   background-color: #000;
   background-image: url('../../../assets/header/patterns.png');
   background-position: center;
@@ -15,116 +15,118 @@
   left: 5% !important;
 }
 
-.carousel-item img{
+.carousel-item img {
   height: 500px;
   object-fit: cover;
 }
 
-.carousel-inner{
+.carousel-inner {
   display: flex;
   position: absolute;
   top: 10%;
 }
 
-.parvaz{
+.parvaz {
   font-size: 50px;
   font-family: 'Italiana', serif;
 }
 
-.learn_more{
+.learn_more {
   border: 1px solid white;
-  padding:10px 20px;
+  padding: 10px 20px;
   border-radius: 30px;
   display: inline-block;
   margin-top: 10px;
 }
 
-.icon{
+.icon {
   color: white !important;
   font-size: 20px;
 }
 
-.carousel-indicators [data-bs-target]:nth-child(2){
-  margin: 0 20px;
-}
-.carousel-indicators [data-bs-target]:nth-child(4){
-  margin: 0 20px;
-}
-.carousel-indicators [data-bs-target]:nth-child(6){
+.carousel-indicators [data-bs-target]:nth-child(2) {
   margin: 0 20px;
 }
 
-.carousel-indicators [data-bs-target]:nth-child(1){
+.carousel-indicators [data-bs-target]:nth-child(4) {
+  margin: 0 20px;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(6) {
+  margin: 0 20px;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(1) {
   background-image: url("../../../assets/header/pcv1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height:70px;
+  height: 70px;
   width: 70px;
   border-radius: 50%;
 }
 
-.carousel-indicators [data-bs-target]:nth-child(2){
+.carousel-indicators [data-bs-target]:nth-child(2) {
   background-image: url("../../../assets/header/pcv2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height:70px;
+  height: 70px;
   width: 70px;
   border-radius: 50%;
 }
 
-.carousel-indicators [data-bs-target]:nth-child(3){
+.carousel-indicators [data-bs-target]:nth-child(3) {
   background-image: url("../../../assets/header/pcv3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height:70px;
+  height: 70px;
   width: 70px;
   border-radius: 50%;
 }
 
-.carousel-indicators [data-bs-target]:nth-child(4){
+.carousel-indicators [data-bs-target]:nth-child(4) {
   background-image: url("../../../assets/header/qoy.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height:70px;
+  height: 70px;
   width: 70px;
   border-radius: 50%;
 }
 
-.carousel-indicators [data-bs-target]:nth-child(5){
+.carousel-indicators [data-bs-target]:nth-child(5) {
   background-image: url("../../../assets/header/bik.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height:70px;
+  height: 70px;
   width: 70px;
   border-radius: 50%;
 }
 
-.carousel-indicators [data-bs-target]:nth-child(6){
+.carousel-indicators [data-bs-target]:nth-child(6) {
   background-image: url("../../../assets/header/floor.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height:70px;
+  height: 70px;
   width: 70px;
   border-radius: 50%;
 }
 
-.carousel-indicators [data-bs-target]:nth-child(7){
+.carousel-indicators [data-bs-target]:nth-child(7) {
   background-image: url("../../../assets/header/tovuq.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height:70px;
+  height: 70px;
   width: 70px;
   border-radius: 50%;
 }
 
-.carousel-indicators{
+.carousel-indicators {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   width: max-content;
@@ -132,124 +134,127 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .carousel{
+  .carousel {
     height: 50vh;
   }
 
-  .carousel-item img{
+  .carousel-item img {
     height: 200px;
     object-fit: cover;
   }
 
-  .parvaz{
+  .parvaz {
     font-size: 20px;
   }
 
-  .paragraph{
+  .paragraph {
     font-size: 10px;
   }
 
-  .carousel-caption{
+  .carousel-caption {
     width: 50%;
     height: 100%;
   }
 
-  .body_div{
+  .body_div {
     background-color: rgb(0, 0, 0);
   }
 
-  .carousel-inner{
+  .carousel-inner {
     top: 30%;
   }
 
-  .learn_more{
+  .learn_more {
     border: 1px solid white;
-    padding:5px 10px;
+    padding: 5px 10px;
     border-radius: 30px;
     display: inline-block;
     margin-top: 10px;
   }
-  .carousel-indicators [data-bs-target]:nth-child(2){
-    margin: 0 8px;
-  }
-  .carousel-indicators [data-bs-target]:nth-child(4){
-    margin: 0 8px;
-  }
-  .carousel-indicators [data-bs-target]:nth-child(6){
+
+  .carousel-indicators [data-bs-target]:nth-child(2) {
     margin: 0 8px;
   }
 
-  .carousel-indicators [data-bs-target]:nth-child(1){
+  .carousel-indicators [data-bs-target]:nth-child(4) {
+    margin: 0 8px;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(6) {
+    margin: 0 8px;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(1) {
     background-image: url("../../../assets/header/pcv1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height:40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  
-  .carousel-indicators [data-bs-target]:nth-child(2){
-    background-image: url("../../../assets/header/pcv2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  
-  .carousel-indicators [data-bs-target]:nth-child(3){
-    background-image: url("../../../assets/header/pcv3.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  
-  .carousel-indicators [data-bs-target]:nth-child(4){
-    background-image: url("../../../assets/header/qoy.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  
-  .carousel-indicators [data-bs-target]:nth-child(5){
-    background-image: url("../../../assets/header/bik.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  
-  .carousel-indicators [data-bs-target]:nth-child(6){
-    background-image: url("../../../assets/header/floor.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  
-  .carousel-indicators [data-bs-target]:nth-child(7){
-    background-image: url("../../../assets/header/tovuq.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:40px;
+    height: 40px;
     width: 40px;
     border-radius: 50%;
   }
 
-  .carousel-indicators{
+  .carousel-indicators [data-bs-target]:nth-child(2) {
+    background-image: url("../../../assets/header/pcv2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(3) {
+    background-image: url("../../../assets/header/pcv3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(4) {
+    background-image: url("../../../assets/header/qoy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(5) {
+    background-image: url("../../../assets/header/bik.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(6) {
+    background-image: url("../../../assets/header/floor.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(7) {
+    background-image: url("../../../assets/header/tovuq.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators {
     width: max-content;
     height: max-content;
     margin: 0 auto !important;
@@ -259,149 +264,144 @@
 
 @media only screen and (max-width: 760px) {
 
-  .carousel{
-    height: 60vh;
+
+  .paragraph {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    width: 80%;
+    overflow: hidden;
+  }
+
+  .carousel-caption {
+    width: 60vw !important;
+  }
+
+  .carousel {
+    height: 70vh;
     background-image: url('../../../assets/header/patterns.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  .carousel-inner{
+  .carousel-inner {
     top: 30% !important;
   }
-  .carousel-item img{
+
+  .carousel-item img {
     opacity: .8;
-    /* left: -200px; */
   }
-  .carousel-indicators [data-bs-target]:nth-child(2){
-    margin: 0 8px;
-  }
-  .carousel-indicators [data-bs-target]:nth-child(4){
-    margin: 0 8px;
-  }
-  .carousel-indicators [data-bs-target]:nth-child(6){
+
+  .carousel-indicators [data-bs-target]:nth-child(2) {
     margin: 0 8px;
   }
 
-  .carousel-indicators [data-bs-target]:nth-child(1){
+  .carousel-indicators [data-bs-target]:nth-child(4) {
+    margin: 0 8px;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(6) {
+    margin: 0 8px;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(1) {
     background-image: url("../../../assets/header/pcv1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height:40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  
-  .carousel-indicators [data-bs-target]:nth-child(2){
-    background-image: url("../../../assets/header/pcv2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  
-  .carousel-indicators [data-bs-target]:nth-child(3){
-    background-image: url("../../../assets/header/pcv3.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  
-  .carousel-indicators [data-bs-target]:nth-child(4){
-    background-image: url("../../../assets/header/qoy.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  
-  .carousel-indicators [data-bs-target]:nth-child(5){
-    background-image: url("../../../assets/header/bik.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  
-  .carousel-indicators [data-bs-target]:nth-child(6){
-    background-image: url("../../../assets/header/floor.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-  
-  .carousel-indicators [data-bs-target]:nth-child(7){
-    background-image: url("../../../assets/header/tovuq.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:40px;
+    height: 40px;
     width: 40px;
     border-radius: 50%;
   }
 
-  .carousel-indicators{
+  .carousel-indicators [data-bs-target]:nth-child(2) {
+    background-image: url("../../../assets/header/pcv2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(3) {
+    background-image: url("../../../assets/header/pcv3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(4) {
+    background-image: url("../../../assets/header/qoy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(5) {
+    background-image: url("../../../assets/header/bik.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(6) {
+    background-image: url("../../../assets/header/floor.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators [data-bs-target]:nth-child(7) {
+    background-image: url("../../../assets/header/tovuq.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators {
     width: max-content;
     height: max-content;
     margin: 0 auto !important;
     top: 85%;
   }
 
-  .carousel-item img{
+  .carousel-item img {
     height: 220px !important;
     object-fit: cover;
-    margin-right: -10%;
-  }
-  
-  .parvaz{
-    font-size: 30px;
+    margin-right: -5%;
   }
 
-  .paragraph{
-    font-size: 15px;
+  .parvaz {
+    font-size: 20px;
   }
 
-  .carousel-caption{
+  .paragraph {
+    font-size: 13px;
+  }
+
+  .carousel-caption {
     width: 80%;
   }
 
-  .body_div{
+  .body_div {
     background-color: rgb(0, 0, 0);
   }
 
-  .carousel-inner{
-    top: 20%;
-  }
-
-  .learn_more{
-    border: 1px solid white;
-    padding:5px 10px;
-    border-radius: 30px;
-    display: inline-block;
-    margin-top: 10px;
-  }
 }
-
-
-
-
-
-
-
-
-
-

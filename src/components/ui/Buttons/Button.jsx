@@ -1,24 +1,11 @@
 import React, { useEffect } from 'react';
 import './Button.css'
-
+import {useTranslation} from 'react-i18next'
 import { Link, useNavigate } from 'react-router-dom'
-// import { useHistory } from 'react-router-dom'
 
 
 const Button = (props) => {
-    // const history = useHistory();
-    // useEffect(() => {
-    //     const unlisten = history.listen((location) => {
-    //         if (location.pathname !== window.location.pathname) {
-    //             window.history.replaceState({ refresh: true }, document.title);
-    //         }
-    //     });
-
-    //     return () => {
-    //         unlisten();
-    //     };
-
-    // }, [history]);
+    const {t} = useTranslation()
 
     function CallMe(){
         window.location.href = props.pass
@@ -27,7 +14,7 @@ const Button = (props) => {
     return (
         <div>
             <div className='btn1'>
-                <Link onClick={CallMe}>Learn More</Link>
+                <Link onClick={CallMe}>{t("H_carousel_button")}</Link>
             </div>
         </div>
     );

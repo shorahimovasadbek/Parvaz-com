@@ -5,15 +5,22 @@ import logo_img from '../../../assets/footer_images/logo.png'
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import {useTranslation} from 'react-i18next'
+import img from '../../../assets/footer.png'
 
 export default function App() {
-
+  const styles = {
+    backgroundImage: `url(${img})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    };
+  const {t} = useTranslation()
   useEffect(() => {
     Aos.init()
   }, []);
 
   return (
-    <MDBFooter className='text-center footer text-lg-start text-light'>
+    <MDBFooter className='text-center footer text-lg-start text-light foot' style={styles}>
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
@@ -23,7 +30,7 @@ export default function App() {
                 <img className='img_logo' src={logo_img} alt="logo img" />
               </h6>
               <p>
-                Parvazprof Industrial and Production Company (the Company) is a company registered in Ministry of Commerce and Industries, activity of the Company is to manufacture and sell all kinds of PVC proﬁles for windows and doors items.
+                {t("F_desc")}
               </p>
             </MDBCol>
 

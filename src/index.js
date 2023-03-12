@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -16,8 +16,9 @@ import Contact from './pages/Contact';
 import Sigir from './pages/animlaPge/sgirPage'
 import AnimalAbout from './pages/animlaPge/Aboutpage'
 import Access from './components/ui/Accessories/Access'
-import { BrowserRouter,Router, Routes, Route } from 'react-router-dom'
-
+import { BrowserRouter, Router, Routes, Route } from 'react-router-dom'
+import './i18n'
+import {ClockLoader} from 'react-spinners'
 
 
 
@@ -25,22 +26,24 @@ import { BrowserRouter,Router, Routes, Route } from 'react-router-dom'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<App />}>
-          <Route index path='/' element={<Home />} />
-          <Route path='/about' element={<About_us/>}/>
-          <Route path='/akwin' element={<Akfa/>} />
-          <Route path='/akfaabout' element={<AkfaAbout/>} />
-          <Route path='/flour' element={<Flour/>} />
-          <Route path='/animal' element={<Animal />} />
-          <Route path='/sigir' element={<Sigir />} />
-          <Route path='/animalabout' element={<AnimalAbout />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/access' element={<Access />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <Suspense fallback={<div style={{display: 'flex', justifyContent: 'center', height: '100vh', alignItems: 'center'}}><ClockLoader color="#fff" /></div>}>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<App />}>
+            <Route index path='/' element={<Home />} />
+            <Route path='/about' element={<About_us />} />
+            <Route path='/akwin' element={<Akfa />} />
+            <Route path='/akfaabout' element={<AkfaAbout />} />
+            <Route path='/flour' element={<Flour />} />
+            <Route path='/animal' element={<Animal />} />
+            <Route path='/sigir' element={<Sigir />} />
+            <Route path='/animalabout' element={<AnimalAbout />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/access' element={<Access />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </Suspense>
   </React.StrictMode>
 );
 

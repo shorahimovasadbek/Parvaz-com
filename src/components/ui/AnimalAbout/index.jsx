@@ -27,7 +27,7 @@ const Index = () => {
 
     const [about, setAbout] = useState(massiv[0].about);
     return (
-        <div className="container text-white">
+        <div className="container text-white parms">
             <div className='row d-flex justify-content-between '>
                 <div className="col-4 ">
                     {

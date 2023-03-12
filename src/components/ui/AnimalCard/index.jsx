@@ -1,5 +1,5 @@
 import React ,{useEffect}from 'react';
-import './main.css'
+import './main1.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {Link} from 'react-router-dom'
@@ -11,12 +11,12 @@ const Index = (props) => {
     }, []);
     return (
         <div className='mainCard'>
-            <div className='row '>
+            <div className='mainCard '>
                 {
                     props.mass.map((item, index) => {
                         return (
-                            <div key={index}  className="col-12 col-sm-12 col-md-6 col-xl-4 col-xxl-4" data-aos-duration='1000' data-aos={`${index % 2 === 0 ? 'fade-up': 'fade-down'}`} >
-                                <div className='MYcard my-4'  >
+                            <div key={index}  className="cardd" data-aos-duration='1000' data-aos={`${index % 2 === 0 ? 'fade-up': 'fade-down'}`} >
+                                <div className='MYcard '  >
                                     <img src={item.image} alt="sigir" />
                                     <button><Link onClick={() => {window.location.href = item.page}}>See more</Link></button>
                                     <div className='botsec'>

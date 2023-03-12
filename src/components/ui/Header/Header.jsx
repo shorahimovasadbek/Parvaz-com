@@ -12,8 +12,11 @@ import tovuq from '../../../assets/header/tovuq.png'
 import Btn from '../Buttons/Button'
 import { Link } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
+import {useTranslation} from 'react-i18next'
 
 export default function Header() {
+
+  const { t } = useTranslation()
   return (
     <div className='body_div '>
       <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="carousel">
@@ -30,57 +33,57 @@ export default function Header() {
           <div class="carousel-item active">
             <p><img src={pvc1} class="img" alt="..." /></p>
             <div class="carousel-caption text-start">
-              <p className='parvaz'>Parvazprof Industrial and Production Company</p>
-              <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn pass='/akwin'/>
+              <p className='parvaz'>{t('H_carousel_title')}</p>
+              <p className='paragraph'>{t('H_carousel_desc_pvc')}</p>
+              <Btn pass='/akwin' />
             </div>
           </div>
           <div class="carousel-item">
-          <p><img src={pvc2} class="img" alt="..." /></p>
+            <p><img src={pvc2} class="img" alt="..." /></p>
             <div class="carousel-caption text-start">
-              <p className='parvaz'>Parvazprof Industrial and Production Company</p>
-              <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn pass='/akwin'/>
+              <p className='parvaz'>{t('H_carousel_title')}</p>
+              <p className='paragraph'>{t('H_carousel_desc_pvc')}</p>
+              <Btn pass='/akwin' />
             </div>
           </div>
           <div class="carousel-item">
-          <p><img src={pvc3} class="img" alt="..." /></p>
+            <p><img src={pvc3} class="img" alt="..." /></p>
             <div class="carousel-caption text-start">
-              <p className='parvaz'>Parvazprof Industrial and Production Company</p>
-              <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn pass='/akwin'/>
+              <p className='parvaz'>{t('H_carousel_title')}</p>
+              <p className='paragraph'>{t('H_carousel_desc_pvc')}</p>
+              <Btn pass='/akwin' />
             </div>
           </div>
           <div class="carousel-item">
-          <p><img src={qoy} class="img" alt="..." /></p>
+            <p><img src={qoy} class="img" alt="..." /></p>
             <div class="carousel-caption text-start">
-              <p className='parvaz'>Parvazprof Industrial and Production Company</p>
-              <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn pass='/animal'/>
+              <p className='parvaz'>{t('H_carousel_title')}</p>
+              <p className='paragraph'>{t('H_carousel_desc')}</p>
+              <Btn pass='/animal' />
             </div>
           </div>
           <div class="carousel-item">
-          <p><img src={bik} class="img" alt="..." /></p>
+            <p><img src={bik} class="img" alt="..." /></p>
             <div class="carousel-caption text-start">
-              <p className='parvaz'>Parvazprof Industrial and Production Company</p>
-              <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn pass='/animal'/>
+              <p className='parvaz'>{t('H_carousel_title')}</p>
+              <p className='paragraph'>{t('H_carousel_desc')}</p>
+              <Btn pass='/animal' />
             </div>
           </div>
           <div class="carousel-item">
-          <p><img src={floor} class="img" alt="..." /></p>
+            <p><img src={floor} class="img" alt="..." /></p>
             <div class="carousel-caption text-start">
-              <p className='parvaz'>Parvazprof Industrial and Production Company</p>
-              <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn pass='/flour'/>
+              <p className='parvaz'>{t('H_carousel_title')}</p>
+              <p className='paragraph'>{t('H_carousel_desc_flour')}</p>
+              <Btn pass='/flour' />
             </div>
           </div>
           <div class="carousel-item">
-          <p><img src={tovuq} class="img" alt="..." /></p>
+            <p><img src={tovuq} class="img" alt="..." /></p>
             <div class="carousel-caption text-start">
-              <p className='parvaz'>Parvazprof Industrial and Production Company</p>
-              <p className='paragraph'>Is the top feed mill in the north which supplies broiler, layer and breeder chicken feed, dairy cattle feed, beef cattle feed, small ruminant feed, to a variety of customers throughout north and northeastern provinces of Afghanistan...</p>
-              <Btn pass='/animal'/>
+              <p className='parvaz'>{t('H_carousel_title')}</p>
+              <p className='paragraph'>{t('H_carousel_desc')}</p>
+              <Btn pass='/animal' />
             </div>
           </div>
         </div>

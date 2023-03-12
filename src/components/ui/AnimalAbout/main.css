@@ -6,6 +6,12 @@
     opacity: 1;
     cursor: pointer;
 }
+.parms{
+    height: 400px;
+}
+h4{
+    margin: 20px 0;
+}
 
 @media (max-width: 576px) {
     h4{

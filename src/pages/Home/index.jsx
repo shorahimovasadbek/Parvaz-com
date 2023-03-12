@@ -7,9 +7,10 @@ import Ico from '../../components/ui/ISO_sertificat/Iso'
 import Location from '../../components/ui/Location/Location'
 import Partners from '../../components/ui/Partners/Partner'
 import img from '../../assets/HOmeImage/1.png'
-import data from '../../utils/alldata';
+import {useTranslation} from 'react-i18next'
 
 const Index = () => {
+    const {t} = useTranslation()
     const styles = {
         backgroundImage: `url(${img})`,
         backgroundRepeat: 'no-repeat',
@@ -21,8 +22,8 @@ const Index = () => {
             <Head />
             <div style={styles}>
             <div className="container" >
-                <Header1 info='Products' />
-                <Cards mass={data.home} />
+                <Header1 info={t("Product")} />
+                <Cards />
                 <Static/>
                 <Ico/>
                 <Location/>
