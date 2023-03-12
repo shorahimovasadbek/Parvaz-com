@@ -7,6 +7,7 @@ import Ico from '../../components/ui/ISO_sertificat/Iso'
 import Location from '../../components/ui/Location/Location'
 import Partners from '../../components/ui/Partners/Partner'
 import img from '../../assets/HOmeImage/1.png'
+import data from '../../utils/alldata';
 
 const Index = () => {
     const styles = {
@@ -21,7 +22,7 @@ const Index = () => {
             <div style={styles}>
             <div className="container" >
                 <Header1 info='Products' />
-                <Cards />
+                <Cards mass={data.home} />
                 <Static/>
                 <Ico/>
                 <Location/>
