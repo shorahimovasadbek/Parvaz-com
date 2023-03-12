@@ -45,7 +45,7 @@ export default function Location() {
   return (
     <div className='container'>
       <Header1 info={t("Location")} />
-      <div className='row images_section'>
+      <div className='row images_section mb-5'>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
           <img src={LocationImg1} alt="Location img" />
           <span className='img_back__div'>

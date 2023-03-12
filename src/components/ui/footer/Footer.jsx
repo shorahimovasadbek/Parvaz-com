@@ -6,15 +6,21 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import {useTranslation} from 'react-i18next'
+import img from '../../../assets/footer.png'
 
 export default function App() {
+  const styles = {
+    backgroundImage: `url(${img})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    };
   const {t} = useTranslation()
   useEffect(() => {
     Aos.init()
   }, []);
 
   return (
-    <MDBFooter className='text-center footer text-lg-start text-light'>
+    <MDBFooter className='text-center footer text-lg-start text-light foot' style={styles}>
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>

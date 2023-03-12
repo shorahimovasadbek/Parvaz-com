@@ -8,3 +8,10 @@
 .img_logo{
   width: 40%;
 }
+
+@media (max-width: 576px) {
+  .foot{
+    background-size: cover !important;
+  }
+  
+}

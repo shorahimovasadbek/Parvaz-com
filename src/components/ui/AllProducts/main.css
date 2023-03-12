@@ -35,6 +35,9 @@
 .cols1 p{
     padding: 50px 0;
 }
+.cols1 h1{
+    font-family: 'Italiana', serif;;
+}
 
 @media (max-width: 990px) {
     .cols{

@@ -8,7 +8,7 @@ export default function Header1(props) {
 }, []);
   return (
     <div>
-      <h1 data-aos-duration='2000' data-aos="zoom-in" className='text-center text-white py-3' >{props.info}</h1>
+      <h1 data-aos-duration='2000' data-aos="zoom-in" className='text-center text-white py-3 pt-5'  >{props.info}</h1>
     </div>
   )
 }

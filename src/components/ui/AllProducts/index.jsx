@@ -47,11 +47,11 @@ const Index = () => {
                     return (
                         <div key={i} className='my-2' >
                             <div className="myrow row g-0">
-                                <div className={`${i % 2 === 0 ? 'cols col-12 col-sm-6 col-md-6   ' : 'box1 colss col-12 col-sm-6 col-md-6 text-end  '}`} data-aos="zoom-in-up" data-aos-duration='1000'>
+                                <div className={`${i % 2 === 0 ? 'cols col-12 col-sm-6 col-md-6   ' : 'box1 colss col-12 col-sm-6 col-md-6 text-end  '}`} data-aos={`${i % 2 === 0 ? 'fade-right': 'fade-left'}`}data-aos-duration='500'>
                                     <img src={item.image} alt="pvc" />
                                 </div>
-                                <div className="cols1 col-12 col-sm-6 col-md-6 text-start text-md-start" data-aos="zoom-in-down" data-aos-duration='1000'>
-                                    <h4>{item.title}</h4>
+                                <div className="cols1 col-12 col-sm-6 col-md-6 text-start text-md-start" data-aos={`${i % 2 === 0 ? 'fade-left': 'fade-right'}`} data-aos-duration='1000'>
+                                    <h1>{item.title}</h1>
                                     <p>{item.pas}</p>
                                     <Btn pass={item.pass} />
                                 </div>
