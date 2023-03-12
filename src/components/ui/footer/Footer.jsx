@@ -18,7 +18,7 @@ export default function App() {
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
-            <MDBCol data-aos-duration='1000' data-aos="fade-up" md="3" lg="4" xl="3" className='mx-auto  mb-4'>
+            <MDBCol md="3" lg="4" xl="3" className='mx-auto  mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
                 <img className='img_logo' src={logo_img} alt="logo img" />
@@ -28,40 +28,40 @@ export default function App() {
               </p>
             </MDBCol>
 
-            <MDBCol data-aos-duration='1000' data-aos="fade-up" md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Quick Menu</h6>
+            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>{t("Q_Menu")}</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Home page
+                  {t("Q_Menu_lists_home")}
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  About us
+                {t("Q_Menu_lists_about")}
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Products
+                {t("Q_Menu_lists_product")}
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Contacts
+                {t("Q_Menu_lists_contact")}
                 </a>
               </p>
             </MDBCol>
 
-            <MDBCol data-aos-duration='1000' data-aos="fade-up" md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>{t("Contact_footer")}</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Contact us
+                  {t("Contact_us")}
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  parvozprof@gmail.com
+                  {t("Contact_email")}
                 </a>
               </p>
             </MDBCol>
@@ -70,9 +70,9 @@ export default function App() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        Powered by:
+        {t("powered")}
         <a className='text-reset fw-bold ms-3' href='#'>
-          Soff Hub
+          {t("name_company")}
         </a>
       </div>
     </MDBFooter>

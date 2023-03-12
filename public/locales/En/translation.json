@@ -31,5 +31,15 @@
   "Amerika": "America",
   "Kazakhistan": "Kazakhstan",
   "Partners" : "Partners",
-  "F_desc" : "Parvazprof Industrial and Production Company (the Company) is a company registered in Ministry of Commerce and Industries, activity of the Company is to manufacture and sell all kinds of PVC proﬁles for windows and doors items."
+  "F_desc" : "Parvazprof Industrial and Production Company (the Company) is a company registered in Ministry of Commerce and Industries, activity of the Company is to manufacture and sell all kinds of PVC proﬁles for windows and doors items.",
+  "Q_Menu": "Quick Menu",
+  "Contact_footer": "Contact",
+  "Q_Menu_lists_home": "Home",
+  "Q_Menu_lists_about": "About us",
+  "Q_Menu_lists_product": "Products",
+  "Q_Menu_lists_contact": "Contact",
+  "Contact_us": "Contact us",
+  "Contact_email": "parvozprof@gmail.com",
+  "powered": "Powered by: ",
+  "name_company": "Soff Hub"
 }

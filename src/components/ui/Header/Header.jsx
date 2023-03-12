@@ -12,13 +12,16 @@ import tovuq from '../../../assets/header/tovuq.png'
 import Btn from '../Buttons/Button'
 import { Link } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
-import {useTranslation} from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 
 export default function Header() {
 
   const { t } = useTranslation()
   return (
     <div className='body_div '>
+      <div id="loader-wrapper">
+        
+      </div>
       <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="carousel">
         <div class="carousel-indicators d-xl-block">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

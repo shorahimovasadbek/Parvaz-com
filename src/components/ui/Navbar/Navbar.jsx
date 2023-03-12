@@ -44,30 +44,30 @@ export default function App() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="#home"><Link onClick={() => { window.location.href = '/' }}><img src={img_logo} alt="logo img" /></Link></Navbar.Brand>
+        <Navbar.Brand><Link onClick={() => { window.location.href = '/' }}><img src={img_logo} alt="logo img" /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav ps-3">
           <Nav className="me-auto"></Nav>
           <Nav className='ms-4 ms-md-0'>
-            <Nav.Link href="#deets"><Link onClick={() => { window.location.href = '/' }}>{t('N_home')}</Link></Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link><Link onClick={() => { window.location.href = '/' }}>{t('N_home')}</Link></Nav.Link>
+            <Nav.Link eventKey={2}>
               <Link onClick={() => { window.location.href = '/about' }}>
                 {t('N_about_us')}
               </Link>
             </Nav.Link>
             <NavDropdown title={t("N_Products")} id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1"><Link onClick={() => { window.location.href = '/akwin' }}>{t('N_P_Akwin')}</Link></NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                <Link onClick={() => { window.location.href = '/animal' }}>{t("N_P_Animal")}</Link>
+              <NavDropdown.Item onClick={() => { window.location.href = '/akwin' }}>{t('N_P_Akwin')}</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => { window.location.href = '/animal' }}>
+                {t("N_P_Animal")}
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3"><Link onClick={() => { window.location.href = '/flour' }}>{t("N_P_Flour")}</Link></NavDropdown.Item>
+              <NavDropdown.Item onClick={() => { window.location.href = '/flour' }}>{t("N_P_Flour")}</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href='#'><Link onClick={() => { window.location.href = '/contact' }}>{t("N_Contact")}</Link></Nav.Link>
+            <Nav.Link ><Link onClick={() => { window.location.href = '/contact' }}>{t("N_Contact")}</Link></Nav.Link>
             <NavDropdown className='ms-0 ms-lg-4 language' title={lang} id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1" onClick={() => changeLanguage('En')}> Eng </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1" onClick={() => changeLanguage('Ru')}> Ru </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" onClick={() => changeLanguage('Uz')}> Uz </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" onClick={() => changeLanguage('Fr')}> Fr </NavDropdown.Item>
+              <NavDropdown.Item onClick={() => changeLanguage('En')}> Eng </NavDropdown.Item>
+              <NavDropdown.Item onClick={() => changeLanguage('Ru')}> Ru </NavDropdown.Item>
+              <NavDropdown.Item onClick={() => changeLanguage('Uz')}> Uz </NavDropdown.Item>
+              <NavDropdown.Item onClick={() => changeLanguage('Fr')}> Fr </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

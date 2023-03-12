@@ -16,11 +16,12 @@ ul{
 }
 
 .map{
-  width: 50% !important;
+  width: 45% !important;
+  margin: 10px 0;
 }
 
 .description{
-  width: 50% !important;
+  width: 45% !important;
 }
 
 .context{
