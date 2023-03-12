@@ -1,4 +1,15 @@
 .Iso_slider img{
-  height: 300px;
+  height: 250px;
+  width: 344px;
   object-fit: contain;
+}
+
+.Iso_slider{
+  text-align: center !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .react-multi-carousel-dot-list li{
+    width: 10% !important;
+  }
 }

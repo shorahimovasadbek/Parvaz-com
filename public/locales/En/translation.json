@@ -24,6 +24,12 @@
   "Factories": "Factories",
   "Clients": "Clients",
   "Workers": "Workers",
-  "ISO_Certificates": "ISO Certificates"
-
+  "ISO_Certificates": "ISO Certificates",
+  "Location": "Location",
+  "Uzbekistan": "Uzbekistan",
+  "Afganistan": "Afghanistan",
+  "Amerika": "America",
+  "Kazakhistan": "Kazakhstan",
+  "Partners" : "Partners",
+  "F_desc" : "Parvazprof Industrial and Production Company (the Company) is a company registered in Ministry of Commerce and Industries, activity of the Company is to manufacture and sell all kinds of PVC proﬁles for windows and doors items."
 }

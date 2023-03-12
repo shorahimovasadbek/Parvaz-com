@@ -24,5 +24,11 @@
   "Factories": "Zavodlar",
   "Clients": "Mijozlar",
   "Workers": "Ishchilar",
-  "ISO_Certificates": "ISO sertifikatlari"
+  "ISO_Certificates": "ISO sertifikatlari",
+  "Location": "Manzil",
+  "Uzbekistan": "Uzbekiston",
+  "Afganistan": "Afg'oniston",
+  "Amerika": "Amerika",
+  "Kazakhistan": "Qozog'iston",
+  "Partners" : "Hamkorlar"
 }

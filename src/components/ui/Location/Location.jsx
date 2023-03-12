@@ -9,8 +9,10 @@ import Header1 from '../H1/Header1'
 import { Link } from 'react-router-dom'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { useTranslation } from 'react-i18next'
 
 export default function Location() {
+  const {t} = useTranslation()
   const styles1 = {
     backgroundImage: `url(${LocationImg1})`,
     backgroundSize: 'cover',
@@ -42,38 +44,38 @@ export default function Location() {
 
   return (
     <div className='container'>
-      <Header1 info='Location' />
+      <Header1 info={t("Location")} />
       <div className='row images_section'>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
           <img src={LocationImg1} alt="Location img" />
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
-            <p>Uzbekistan</p>
-            <span><Link onClick={() => {window.location.href = '/contact'}}>Location</Link></span>
+            <p>{t("Uzbekistan")}</p>
+            <span><Link onClick={() => {window.location.href = '/contact'}}>{t("Uzbekistan")}</Link></span>
           </span>
         </div>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
           <img src={LocationImg2} alt="Location img" />
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
-            <p>Afganistan</p>
-            <span><Link onClick={() => {window.location.href = '/contact'}}>Location</Link></span>
+            <p>{t("Afganistan")}</p>
+            <span><Link onClick={() => {window.location.href = '/contact'}}>{t("Afganistan")}</Link></span>
           </span>
         </div>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
           <img src={LocationImg3} alt="Location img" />
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
-            <p>Amerika</p>
-            <span><Link onClick={() => {window.location.href = '/contact'}}>Location</Link></span>
+            <p>{t("Amerika")}</p>
+            <span><Link onClick={() => {window.location.href = '/contact'}}>{t("Amerika")}</Link></span>
           </span>
         </div>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
           <img src={LocationImg4} alt="Location img" />
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
-            <p>Kazakhistan</p>
-            <span><Link onClick={() => {window.location.href = '/contact'}}>Location</Link></span>
+            <p>{t("Kazakhistan")}</p>
+            <span><Link onClick={() => {window.location.href = '/contact'}}>{t("Kazakhistan")}</Link></span>
           </span>
         </div>
       </div>

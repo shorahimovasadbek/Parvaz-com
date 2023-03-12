@@ -24,6 +24,11 @@
   "Factories": "کارخانه ها",
   "Clients": "مشتریان",
   "Workers": "کارگران",
-  "ISO_Certificates": "گواهینامه های ISO"
-  
+  "ISO_Certificates": "گواهینامه های ISO",
+  "Location": "محل",
+  "Uzbekistan": "ازبکستان",
+  "Afganistan": "افغانستان",
+  "Amerika": "آمریکا",
+  "Kazakhistan": "قزاقستان",
+  "Partners" : "شرکا"
 }

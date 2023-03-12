@@ -12,7 +12,7 @@ import tovuq from '../../../assets/header/tovuq.png'
 import Btn from '../Buttons/Button'
 import { Link } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next'
 
 export default function Header() {
 

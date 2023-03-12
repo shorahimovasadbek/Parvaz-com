@@ -10,8 +10,10 @@ import './partners.css'
 import Header1 from "../H1/Header1";
 import Aos from "aos";
 import 'aos/dist/aos.css'
+import {useTranslation} from 'react-i18next'
 
 export default function Partner() {
+  const {t} = useTranslation()
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -38,7 +40,7 @@ export default function Partner() {
 
   return (
     <div className="container">
-      <Header1 info='Partners'/>
+      <Header1 info={t("Partners")}/>
       <Carousel className='Partners' infinite={true} keyBoardControl={true} responsive={responsive} autoPlay={true} autoPlaySpeed={3000} showDots={true}>
         <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner1_img} alt="iso_sertificat1"/></div>
         <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner2_img} alt="iso_sertificat2"/></div>
