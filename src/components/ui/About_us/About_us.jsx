@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import back_img from '../../../assets/About_us/About_us.png'
+// import back_img from '../../../assets/About_us/About_us.png'
 import akwin from '../../../assets/About_us/akwin.png'
 import cow from '../../../assets/About_us/cow.png'
 import factory from '../../../assets/About_us/factory.png'

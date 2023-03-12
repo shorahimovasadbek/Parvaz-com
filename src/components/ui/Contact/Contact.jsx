@@ -135,7 +135,7 @@ export default function Contact() {
   return (
     <div className='big_content'>
       <h1 className='text-center d-none d-lg-block my-5'>Location</h1>
-      <div className='context'>
+      <div className='context container'>
         {
           (mass) && mass.map((item, index) => {
             return (
@@ -152,7 +152,7 @@ export default function Contact() {
                               <li>{result.number}</li>
                               <li className='text-lowercase mb-4'>{result.address}</li>
                             </div>
-                            <iframe className='map' style={{ height: '300px' }} src={`${result.url}`} ></iframe>
+                            <iframe data-aos='fade-left' data-aos-duration='1000' className='map' style={{ height: '300px' }} src={`${result.url}`} ></iframe>
                           </div>
                         )
                       })
