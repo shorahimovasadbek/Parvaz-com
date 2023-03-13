@@ -7,6 +7,7 @@ const Index = (props) => {
     const styles = {
         backgroundImage: `url(${props.img})`,
         backgroundRepeat: 'no-repeat',
+        backgorundSize: 'contain',
         };
     return (
         <div style={styles} className='headerbg'>

@@ -14,6 +14,18 @@ export default function Contact() {
 
   const [mass, setMass] = useState(
     [
+      {
+        name: 'MAZAR I SHARIF ( MAIN BRANCH )',
+        number: '0794441155',
+        address: 'CHAWK MUKHABIRAT, SARAK SIYA GERD MAZAR SHARIF',
+        url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102361.59430555941!2d67.07788207923123!3d36.70334791941662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f34b8a3605314bd%3A0xb27a5e1a6c1fcf71!2z0JzQsNC30LDRgNC4LdCo0LDRgNC40YQsINCQ0YTQs9Cw0L3QuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1678117060414!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+      },
+      {
+        name: 'KABUL ( MAIN BRANCH )',
+        number: '0799382736 / 0786218216',
+        address: 'PARK HAI SANHATY, BAGRAM NEW STREET, 4TH STREET',
+        url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+      },
       [
         {
           name_main: 'KABUL'
@@ -118,19 +130,8 @@ export default function Contact() {
         number: '0700605010 / 0799500554',
         address: 'KHOWAJA AHMADSHAI STREET BESID ALHIKMAT PUMP STATION HANAFI PLAZA KANDAHAR AFGHANISTAN',
         url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108702.55446745976!2d65.68012903821025!3d31.635087191552174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ed671baa0e28837%3A0x2759b21c9042aa75!2z0JrQsNC90LTQsNCz0LDRgCwg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116962035!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
-      },
-      {
-        name: 'MAZAR I SHARIF ( MAIN BRANCH )',
-        number: '0794441155',
-        address: 'CHAWK MUKHABIRAT, SARAK SIYA GERD MAZAR SHARIF',
-        url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102361.59430555941!2d67.07788207923123!3d36.70334791941662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f34b8a3605314bd%3A0xb27a5e1a6c1fcf71!2z0JzQsNC30LDRgNC4LdCo0LDRgNC40YQsINCQ0YTQs9Cw0L3QuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1678117060414!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
-      },
-      {
-        name: 'KABUL ( MAIN BRANCH )',
-        number: '0799382736 / 0786218216',
-        address: 'PARK HAI SANHATY, BAGRAM NEW STREET, 4TH STREET',
-        url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
       }
+      
     ]);
 
   return (
