@@ -3,7 +3,7 @@ import Nav from '../../../components/ui/Navbar/Navbar'
 import Footer from '../../../components/ui/footer/Footer'
 import Header from '../../../components/ui/ProductHeader/index';
 import About from '../../../components/ui/AkfaAbout/index'
-import img from '../../../assets/headerbg.png'
+import img from '../../../assets/About_us/about.png'
 import img1 from '../../../assets/HOmeImage/1.png'
 
 const Index = () => {

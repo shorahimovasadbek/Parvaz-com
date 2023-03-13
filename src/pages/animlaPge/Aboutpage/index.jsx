@@ -12,7 +12,8 @@ const Index = () => {
     const styles = {
         backgroundImage: `url(${img1})`,
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
+    
         };
     return (
         <div style={styles}>

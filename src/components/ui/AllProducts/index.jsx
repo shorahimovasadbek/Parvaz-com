@@ -4,6 +4,7 @@ import img from '../../../assets/rom.png'
 import img1 from '../../../assets/HOmeImage/un.png'
 import img2 from '../../../assets/HOmeImage/aralash.png'
 import img4 from '../../../assets/HOmeImage/qimmata.png'
+import img5 from '../../../assets/HOmeImage/other.png'
 import Btn from '../Buttons/Button'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,16 +20,22 @@ const Index = () => {
             pass: '/akwin'
         },
         {
+            image: img2,
+            title: t("Product_animal_title"),
+            pas: t("Product_animal_desc"),
+            pass: '/animal'
+        },
+        {
             image: img1,
             title: t("Product_flour_title"),
             pas: t("Product_flour_desc"),
             pass: '/flour'
         },
         {
-            image: img2,
-            title: t("Product_animal_title"),
-            pas: t("Product_animal_desc"),
-            pass: '/animal'
+            image: img5,
+            title: 'Other Products',
+            pas: "Sunflower oil is a mild-tasting, plant-based fat that's perfect for roasting, deep-frying and stir-frying. Find out how to store and cook with sunflower oil."
+
         },
         {
             image: img4,

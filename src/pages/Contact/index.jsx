@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../components/ui/ProductHeader';
-import img from '../../assets/bugdoy.png'
+import img from '../../assets/Contact.png'
 import Card from '../../components/ui/Contact/Contact'
 import bg from '../../assets/HOmeImage/1.png'
 
@@ -9,7 +9,7 @@ export default function index() {
   const styles = {
     backgroundImage: `url(${bg})`,
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
+    backgroundSize: 'contain',
     };
   return (
     <div style={styles}>
