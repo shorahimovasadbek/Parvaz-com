@@ -14,6 +14,31 @@ export default function Contact() {
 
   const [mass, setMass] = useState(
     [
+      [
+        {
+          name_main: 'KABUL'
+        },
+        [
+          {
+            name: 'SALIM KARWAN BRANCH',
+            number: '0791987987 / 0785965555',
+            address: 'SALIM KARWAN MADINA PLAZA',
+            url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+          },
+          {
+            name: 'BAGRAMI BRANCH',
+            number: '0731402403',
+            address: 'SARAK OMOMI, QALAY AHMAD KHAN',
+            url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+          },
+          {
+            name: 'DEHMAZANG BRANCH',
+            number: '0785975555 / 0799466712',
+            address: 'DARLAMAN STREET FRONT OF HABIBIYA SCHOOL BESIDE KATEB UNIVERSITY',
+            url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+          }
+        ]
+      ],
       {
         name: 'SHEBIRGHAN',
         number: '0786140019',
@@ -81,31 +106,7 @@ export default function Contact() {
         address: 'Sino district , Dushanbe Tajikistan',
         url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.9572882386!2d68.64149518891266!3d38.56150890450092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b5d16fd27bf89b%3A0xddf9378ddea1fd44!2z0JTRg9GI0LDQvdCx0LUsINCi0LDQtNC20LjQutC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678185953777!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
       },
-      [
-        {
-          name_main: 'KABUL'
-        },
-        [
-          {
-            name: 'SALIM KARWAN BRANCH',
-            number: '0791987987 / 0785965555',
-            address: 'SALIM KARWAN MADINA PLAZA',
-            url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
-          },
-          {
-            name: 'BAGRAMI BRANCH',
-            number: '0731402403',
-            address: 'SARAK OMOMI, QALAY AHMAD KHAN',
-            url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
-          },
-          {
-            name: 'DEHMAZANG BRANCH',
-            number: '0785975555 / 0799466712',
-            address: 'DARLAMAN STREET FRONT OF HABIBIYA SCHOOL BESIDE KATEB UNIVERSITY',
-            url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
-          }
-        ]
-      ],
+
       {
         name: 'GHAZNI',
         number: '0747155418 / 0794254998',
@@ -141,7 +142,7 @@ export default function Contact() {
             return (
               (Array.isArray(item)) ?
                 <div className='px-lg-0 my-4'>
-                  <h2>{item[0].name_main}</h2>
+                  <h2 className='name'>{item[0].name_main}</h2>
                   <ul className='lh-lg'>
                     {
                       item[1].map((result, i) => {
