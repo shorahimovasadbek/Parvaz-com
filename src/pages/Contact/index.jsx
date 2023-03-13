@@ -9,7 +9,7 @@ export default function index() {
   const styles = {
     backgroundImage: `url(${bg})`,
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'contain',
+    backgroundSize: 'cover',
     };
   return (
     <div style={styles}>

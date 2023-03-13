@@ -30,7 +30,7 @@ root.render(
   <React.StrictMode>
     <Suspense
       fallback={
-        <div style={{ display: 'flex', textAlign: 'center', alignItems: 'center', marginTop: '10%', flexDirection: 'column', height: '100vh', width: '100vw', alignItems: 'center' }}>
+        <div style={{ display: 'flex', textAlign: 'center', alignItems: 'center', marginTop: '12%', flexDirection: 'column', height: '100vh', width: '98vw', alignItems: 'center' }}>
           <div>
             <img src={logo}  width="180px" height="200px" alt="1-son kompleks" />
             <h1 className='m-0 p-0 img_loader text-white my-3' ><span>Parvoz </span>Group</h1>

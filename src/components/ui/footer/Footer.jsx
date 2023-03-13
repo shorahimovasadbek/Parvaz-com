@@ -37,22 +37,22 @@ export default function App() {
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>{t("Q_Menu")}</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a onClick={() => { window.location.href = '/' }} className='text-reset'>
                   {t("Q_Menu_lists_home")}
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a onClick={() => { window.location.href = '/about' }} className='text-reset'>
                 {t("Q_Menu_lists_about")}
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a onClick={() => { window.location.href = '/akwin' }} className='text-reset'>
                 {t("Q_Menu_lists_product")}
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a onClick={() => { window.location.href = '/contact' }} className='text-reset'>
                 {t("Q_Menu_lists_contact")}
                 </a>
               </p>
@@ -61,7 +61,7 @@ export default function App() {
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>{t("Contact_footer")}</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a onClick={() => { window.location.href = '/contact' }}  href='#!' className='text-reset'>
                   {t("Contact_us")}
                 </a>
               </p>

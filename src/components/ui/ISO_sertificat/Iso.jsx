@@ -20,7 +20,7 @@ export default function Iso() {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 4
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -44,8 +44,6 @@ export default function Iso() {
         <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img2} alt="iso_sertificat2"/></div>
         <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img4} alt="iso_sertificat4"/></div>
         <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img3} alt="iso_sertificat3"/></div>
-        <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img4} alt="iso_sertificat4"/></div>
-        <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img1} alt="iso_sertificat1"/></div>
       </Carousel>
     </div>
   )

@@ -10,6 +10,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import Weather from '../Weather/Weather';
 
 
 
@@ -21,16 +22,16 @@ export default function App() {
 
   const changeLanguage = (til) => {
 
-    if(til === 'En'){
+    if (til === 'En') {
       setLang('En')
       localStorage.setItem('language', 'En')
-    }else if(til === 'Ru'){
+    } else if (til === 'Ru') {
       setLang('Ru')
       localStorage.setItem('language', 'Ru')
-    }else if(til === 'Fr'){
+    } else if (til === 'Fr') {
       setLang('Fr')
       localStorage.setItem('language', 'Fr')
-    }else{
+    } else {
       setLang('Uz')
       localStorage.setItem('language', 'Uz')
     }
@@ -63,12 +64,16 @@ export default function App() {
               <NavDropdown.Item onClick={() => { window.location.href = '/flour' }}>{t("N_P_Flour")}</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link ><Link onClick={() => { window.location.href = '/contact' }}>{t("N_Contact")}</Link></Nav.Link>
+            <Nav.Link className='last_item'><Link onClick={() => { window.location.href = '/contact' }}>
+              <span><Weather /> <span className='number d-none d-lg-block'>Tel: 0791987987 / 0785965555</span></span>
+            </Link></Nav.Link>
             <NavDropdown className='ms-0 ms-lg-4 language' title={lang} id="collasible-nav-dropdown">
               <NavDropdown.Item onClick={() => changeLanguage('En')}> Eng </NavDropdown.Item>
               <NavDropdown.Item onClick={() => changeLanguage('Ru')}> Ru </NavDropdown.Item>
               <NavDropdown.Item onClick={() => changeLanguage('Uz')}> Uz </NavDropdown.Item>
               <NavDropdown.Item onClick={() => changeLanguage('Fr')}> Fr </NavDropdown.Item>
             </NavDropdown>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

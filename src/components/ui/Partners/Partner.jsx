@@ -1,9 +1,9 @@
 import React, {useEffect} from "react";
-import partner1_img from '../../../assets/Partners/image 35.png'
-import partner2_img from '../../../assets/Partners/image 36.png'
-import partner3_img from '../../../assets/Partners/image 37.png'
-import partner4_img from '../../../assets/Partners/image 38.png'
-import partner5_img from '../../../assets/Partners/image 39.png'
+import partner1_img from '../../../assets/Partners/image35.png'
+import partner2_img from '../../../assets/Partners/image36.png'
+import partner3_img from '../../../assets/Partners/image37.png'
+import partner4_img from '../../../assets/Partners/image38.png'
+import partner5_img from '../../../assets/Partners/image39.png'
 import Carousel from 'react-multi-carousel'
 import "react-multi-carousel/lib/styles.css";
 import './partners.css'

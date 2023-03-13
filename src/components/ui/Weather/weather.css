@@ -1,0 +1,18 @@
+.temp{
+  font-size: 25px;
+  font-family: 'Italiana', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.temp_gradus{
+  font-family:cursive;
+  font-size: 20px;
+}
+
+.weather{
+  position: relative;
+  z-index: 1005;
+  margin: 0 !important;
+  padding: 0 !important;
+}

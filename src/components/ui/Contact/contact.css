@@ -10,18 +10,22 @@ html{
   font-family: 'Italiana', serif;
 }
 
+.name{
+  font-family: 'Italiana', serif;
+}
+
 ul{
   padding-left: 0 !important;
   margin: 0;
 }
 
 .map{
-  width: 45% !important;
+  width: 50% !important;
   margin: 10px 0;
 }
 
 .description{
-  width: 45% !important;
+  width: 50% !important;
 }
 
 .context{
