@@ -1,5 +1,5 @@
 .Partners img{
-  min-height: 250px;
-  width: 250px;
+  min-height: 200px !important;
+  width: 200px !important;
   object-fit: contain;
 }

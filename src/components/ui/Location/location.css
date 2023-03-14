@@ -12,7 +12,7 @@
   overflow: hidden;
 }
 
-.images_section>div>img {
+.images_section > div > img {
   transition: all .8s cubic-bezier(.25, .4, .45, 1.4) !important;
   position: absolute;
   width: calc(100% - 20px);
@@ -20,18 +20,15 @@
   border-radius: 1rem;
 }
 
-.images_section>div:hover img {
+.images_section > div:hover img {
   transform: scale(1.2);
-  box-sizing: border-box;
 }
 
-.images_section>div:hover {
+.img_back__div span:hover{
   cursor: pointer;
 }
 
 .img_back__div {
-  border-radius: 1rem;
-  background-color: rgba(0, 0, 0, 0.534);
   position: absolute;
   height: 100%;
   width: calc(100% - 20px);
@@ -40,10 +37,6 @@
   align-items: center;
   justify-content: space-evenly;
   transition: all .8s cubic-bezier(.25, .4, .45, 1.4) !important;
-}
-
-.img_back__div:hover {
-  transform: scale(1.2);
 }
 
 .img_back__div p {
@@ -76,6 +69,10 @@
 .img_back__div:hover p,
 .img_back__div:hover img {
   opacity: 0;
+}
+
+.location_title{
+  color: white;
 }
 
 @media only screen and (max-width: 992px) {

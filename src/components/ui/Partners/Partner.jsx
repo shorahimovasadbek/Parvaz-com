@@ -21,7 +21,7 @@ export default function Partner() {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 4
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -39,14 +39,18 @@ export default function Partner() {
   
 
   return (
-    <div className="container">
+    <div className="container mb-5">
       <Header1 info={t("Partners")}/>
-      <Carousel className='Partners' infinite={true} keyBoardControl={true} responsive={responsive} autoPlay={true} autoPlaySpeed={3000} showDots={true}>
+      <Carousel className='Partners' infinite={true} keyBoardControl={true} responsive={responsive} autoPlay={true} autoPlaySpeed={5000} showDots={true}>
         <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner1_img} alt="iso_sertificat1"/></div>
         <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner2_img} alt="iso_sertificat2"/></div>
+        <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner5_img} alt="iso_sertificat2"/></div>
         <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner3_img} alt="iso_sertificat3"/></div>
+        <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner1_img} alt="iso_sertificat1"/></div>
         <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner4_img} alt="iso_sertificat4"/></div>
         <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner5_img} alt="iso_sertificat2"/></div>
+        <div className="text-center" data-aos-duration='1000' data-aos="fade-up"><img src={partner3_img} alt="iso_sertificat3"/></div>
+
       </Carousel>
     </div>
   );

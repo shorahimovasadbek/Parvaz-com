@@ -22,11 +22,11 @@ export default function App() {
   return (
     <MDBFooter className='text-center footer text-lg-start text-light foot' style={styles}>
       <section className=''>
-        <MDBContainer className='text-center text-md-start mt-5'>
+        <MDBContainer className='text-center text-md-start'>
           <MDBRow className='mt-3'>
-            <MDBCol md="3" lg="4" xl="3" className='mx-auto  mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" className="me-3" />
+            <MDBCol md="3" lg="4" xl="7" className='mx-auto '>
+              <h6 className='text-uppercase fw-bold'>
+                <MDBIcon icon="gem" />
                 <img className='img_logo' src={logo_img} alt="logo img" />
               </h6>
               <p>
@@ -34,8 +34,8 @@ export default function App() {
               </p>
             </MDBCol>
 
-            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>{t("Q_Menu")}</h6>
+            <MDBCol md="2" lg="2" xl="2" className='mx-auto bottom_div'>
+              <h6 className='text-uppercase fw-bold'>{t("Q_Menu")}</h6>
               <p>
                 <a onClick={() => { window.location.href = '/' }} className='text-reset'>
                   {t("Q_Menu_lists_home")}
@@ -58,8 +58,8 @@ export default function App() {
               </p>
             </MDBCol>
 
-            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>{t("Contact_footer")}</h6>
+            <MDBCol md="3" lg="2" xl="2" className='mx-auto bottom_div'>
+              <h6 className='text-uppercase fw-bold'>{t("Contact_footer")}</h6>
               <p>
                 <a onClick={() => { window.location.href = '/contact' }}  href='#!' className='text-reset'>
                   {t("Contact_us")}
@@ -75,7 +75,7 @@ export default function App() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+      <div className='text-center' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         {t("powered")}
         <a className='text-reset fw-bold ms-3' href='#'>
           {t("name_company")}

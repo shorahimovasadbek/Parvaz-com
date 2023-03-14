@@ -1,13 +1,15 @@
-.carousel {
-  height: 100vh;
-}
-
 .body_div {
   background-color: #000;
   background-image: url('../../../assets/header/patterns.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.carousel{
+  display: flex;
+  position: absolute;
+  top: 13vh;
+  height: 100vh !important;
 }
 
 .carousel-caption {
@@ -16,18 +18,13 @@
 }
 
 .carousel-item img {
-  height: 500px;
+  height: 400px;
   object-fit: cover;
 }
 
-.carousel-inner {
-  display: flex;
-  position: absolute;
-  top: 10%;
-}
 
 .parvaz {
-  font-size: 50px;
+  font-size: 45px;
   font-family: 'Italiana', serif;
 }
 
@@ -42,6 +39,16 @@
 .icon {
   color: white !important;
   font-size: 20px;
+}
+
+.carousel-indicators {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  width: max-content;
+  height: max-content;
+  margin-left: 22% !important;
+  position: absolute;
+  top: 500px;
 }
 
 .carousel-indicators [data-bs-target]:nth-child(2) {
@@ -107,16 +114,6 @@
 }
 
 .carousel-indicators [data-bs-target]:nth-child(6) {
-  background-image: url("../../../assets/header/floor.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-}
-
-.carousel-indicators [data-bs-target]:nth-child(7) {
   background-image: url("../../../assets/header/tovuq.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -126,12 +123,17 @@
   border-radius: 50%;
 }
 
-.carousel-indicators {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 50px;
-  width: max-content;
-  margin-left: 25% !important;
+.carousel-indicators [data-bs-target]:nth-child(7) {
+  background-image: url("../../../assets/header/floor.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
 }
+
+
 
 @media only screen and (max-width: 992px) {
   .carousel {

@@ -3,7 +3,7 @@ import './weather.css'
 import axios from 'axios'
 import img_on from '../../../assets/Weather/On_sun.png'
 import img_off from '../../../assets/Weather/Off_sun.png'
-
+import {RingLoader} from 'react-spinners'
 export default function Weather() {
   const [temp, setTemp] = useState({})
   const api = {
@@ -43,7 +43,7 @@ export default function Weather() {
             </div>
           </div>
           :
-          ""
+          <RingLoader size={20} color="#36d7b7" />
         )
       }
     </div>

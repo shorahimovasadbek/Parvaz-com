@@ -2,12 +2,6 @@
   color: white;
 }
 
-.products{
-  font-size: 60px;
-  display: flex;
-  justify-content: center;
-  font-family: 'Italiana', serif;
-}
 
 .description1 {
   width: 100% !important ;

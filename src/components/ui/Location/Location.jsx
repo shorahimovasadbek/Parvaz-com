@@ -51,7 +51,7 @@ export default function Location() {
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>{t("Afganistan")}</p>
-            <span><Link onClick={() => {window.location.href = '/contact'}}>{t("Afganistan")}</Link></span>
+            <span onClick={() => {window.location.href = '/contact'}}>{t("Afganistan")}</span>
           </span>
         </div>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
@@ -59,7 +59,7 @@ export default function Location() {
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>{t("Uzbekistan")}</p>
-            <span><Link onClick={() => {window.location.href = '/contact'}}>{t("Uzbekistan")}</Link></span>
+            <span onClick={() => {window.location.href = '/contact'}}>{t("Uzbekistan")}</span>
           </span>
         </div>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
@@ -67,7 +67,7 @@ export default function Location() {
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>{t("Kazakhistan")}</p>
-            <span><Link onClick={() => {window.location.href = '/contact'}}>{t("Kazakhistan")}</Link></span>
+            <span onClick={() => {window.location.href = '/contact'}}>{t("Kazakhistan")}</span>
           </span>
         </div>
         <div className='col-12 my-3 my-lg-0 col-md-6 col-lg-3' data-aos-duration='1000' data-aos="fade-up">
@@ -75,7 +75,7 @@ export default function Location() {
           <span className='img_back__div'>
             <img src={LocationImg} alt="Location img" />
             <p>{t("Amerika")}</p>
-            <span><Link onClick={() => {window.location.href = '/contact'}}>{t("Amerika")}</Link></span>
+            <span onClick={() => {window.location.href = '/contact'}}>{t("Amerika")}</span>
           </span>
         </div>
       </div>

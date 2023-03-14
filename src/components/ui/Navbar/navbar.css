@@ -1,9 +1,70 @@
+.big_content__navbar{
+  position: absolute;
+  width: 100vw;
+  position: fixed !important;
+  z-index: 1010;
+}
+
 .navbar {
   background-color: #0C0061;
   font-size: 20px;
-  position: fixed !important;
   width: 100%;
   z-index: 1003;
+}
+
+.navbar-dark{
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative;
+}
+
+.nav_top__section{
+  display: flex;
+  position: relative;
+  top: 0;
+  background-color: #0C0032;
+  width: 100%;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+  z-index: 1006;
+  padding: 4px 0;
+}
+
+.phone_number{
+  font-size: 15px;
+}
+
+.phone_number a:hover{
+  color: white;
+}
+
+.flags img{
+  height: 20px !important;
+  width: 20px !important;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.flags p{
+  margin: 0;
+}
+
+.flags a{
+  padding: 0 10px;
+}
+
+.flags a:hover {
+  color: white !important;
+  background-color:transparent !important;
+}
+
+.flags{
+  font-size: 15px;
+}
+
+.logo_img{
+  object-fit: cover;
 }
 
 .navbar-nav .nav-link{
@@ -29,8 +90,7 @@
 }
 
 .language #collasible-nav-dropdown {
-  border: 1px solid white;
-  border-radius: 50%;
+  border-bottom: 2px solid white;
   font-size: 15px;
   padding: 5px;
 }
@@ -38,6 +98,11 @@
 .language .dropdown-toggle::after {
   display: none;
 }
+
+.top_section .dropdown-toggle::after{
+  display: none;
+}
+
 
 button:focus:not(:focus-visible) {
   box-shadow: none;

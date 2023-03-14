@@ -9,18 +9,26 @@ export default function Sertificat() {
   return (
     <div className='container text-center sertificats my-5'>
       <p className='iso__sertificats'>ISO Certificates</p>
-      <div className="row mt-4">
-        <div className="col-12 col-md-6 col-lg-3"> 
-          <img src={img3} alt="sertificat3" />
+      <div className="row mt-4 align-items-center">
+        <div className="col-12 justify-content-center d-flex col-md-6 col-lg-3">
+          <div className="card">
+            <img src={img3} alt="sertificat3" />
+          </div>
         </div>
-        <div className="col-12 col-md-6 col-lg-3"> 
-          <img src={img1} alt="sertificat1" />
+        <div className="col-12 justify-content-center d-flex col-md-6 col-lg-3">
+          <div className="card">
+            <img src={img1} alt="sertificat1" />
+          </div>
         </div>
-        <div className="col-12 col-md-6 col-lg-3"> 
-          <img src={img2} alt="sertificat2" />
+        <div className="col-12 justify-content-center d-flex col-md-6 col-lg-3">
+          <div className="card">
+            <img src={img2} alt="sertificat2" />
+          </div>
         </div>
-        <div className="col-12 col-md-6 col-lg-3"> 
-          <img src={img4} alt="sertificat4" />
+        <div className="col-12 justify-content-center d-flex col-md-6 col-lg-3">
+          <div className="card">
+            <img src={img4} alt="sertificat4" />
+          </div>
         </div>
       </div>
     </div>
