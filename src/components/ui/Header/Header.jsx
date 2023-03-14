@@ -12,14 +12,14 @@ import tovuq from '../../../assets/header/tovuq.png'
 import Btn from '../Buttons/Button'
 import { Link } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 
 export default function Header() {
 
   const { t } = useTranslation()
   return (
-    <div className='body_div '>
-      <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="carousel">
+    <div className='body_div'>
+      <div id="carouselExampleCaptions" class="carousel slide container p-0" data-bs-ride="carousel">
         <div class="carousel-indicators d-xl-block">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -71,19 +71,19 @@ export default function Header() {
             </div>
           </div>
           <div class="carousel-item">
-            <p><img src={floor} class="img" alt="..." /></p>
-            <div class="carousel-caption text-start">
-              <p className='parvaz'>{t('H_carousel_title')}</p>
-              <p className='paragraph'>{t('H_carousel_desc_flour')}</p>
-              <Btn pass='/flour' />
-            </div>
-          </div>
-          <div class="carousel-item">
             <p><img src={tovuq} class="img" alt="..." /></p>
             <div class="carousel-caption text-start">
               <p className='parvaz'>{t('H_carousel_title')}</p>
               <p className='paragraph'>{t('H_carousel_desc')}</p>
               <Btn pass='/animal' />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <p><img src={floor} class="img" alt="..." /></p>
+            <div class="carousel-caption text-start">
+              <p className='parvaz'>{t('H_carousel_title')}</p>
+              <p className='paragraph'>{t('H_carousel_desc_flour')}</p>
+              <Btn pass='/flour' />
             </div>
           </div>
         </div>

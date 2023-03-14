@@ -24,6 +24,22 @@
   "Factories": "کارخانه ها",
   "Clients": "مشتریان",
   "Workers": "کارگران",
-  "ISO_Certificates": "گواهینامه های ISO"
-  
+  "ISO_Certificates": "گواهینامه های ISO",
+  "Location": "محل",
+  "Uzbekistan": "ازبکستان",
+  "Afganistan": "افغانستان",
+  "Amerika": "آمریکا",
+  "Kazakhistan": "قزاقستان",
+  "Partners" : "شرکا",
+  "F_desc" : "شرکت صنعتی و تولیدی پروازپروف (شرکت) یک شرکت ثبت شده در وزارت بازرگانی و صنایع می باشد که فعالیت این شرکت تولید و فروش انواع پروفیل های PVC برای اقلام در و پنجره می باشد.",
+  "Q_Menu": "منوی سریع",
+  "Contact_footer": "مخاطب",
+  "Q_Menu_lists_home": "صفحه اصلی",
+  "Q_Menu_lists_about": "درباره ما",
+  "Q_Menu_lists_product": "محصولات",
+  "Q_Menu_lists_contact": "مخاطب",
+  "Contact_us": "با ما تماس بگیرید",
+  "Contact_email": "parvozprof@gmail.com",
+  "powered": "پشتیبانی شده توسط: ",
+  "name_company": "سوف هاب"
 }

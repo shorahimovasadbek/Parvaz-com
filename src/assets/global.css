@@ -11,4 +11,9 @@ Link{
 
 a{
     text-decoration: none !important;
+    cursor: pointer;
+}
+
+.img_loader{
+    font-family: 'Italiana', serif !important;
 }

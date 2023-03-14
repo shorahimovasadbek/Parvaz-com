@@ -34,7 +34,10 @@
 }
 .cols1 p{
     padding: 50px 0;
+    font-size: 18px;
+    font-weight: lighter;
 }
+
 
 @media (max-width: 990px) {
     .cols{

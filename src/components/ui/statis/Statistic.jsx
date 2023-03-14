@@ -21,7 +21,7 @@ export default function Statistic() {
     <div  className='container'>
       <Header1 info={t("Statistic")}/>
       <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
-        <div className="row g-0 d-flex justify-content-center">
+        <div className="row mb-5 g-0 d-flex justify-content-center">
           <div data-aos-duration='1500' data-aos="fade-up" className="col-12 my-4 my-lg-0 px-4 px-lg-3 col-md-6  col-lg-3">
             <div className="card text-center">
               <div>

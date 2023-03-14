@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { lazy, Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -6,7 +6,8 @@ import './assets/global.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import Home from './pages/Home';
+import '../src/assets/global.css'
+
 import About_us from './pages/AboutUS';
 import Akfa from './pages/AkfaPages/AkfaMain'
 import AkfaAbout from './pages/AkfaPages/AkfaAbout'
@@ -18,15 +19,28 @@ import AnimalAbout from './pages/animlaPge/Aboutpage'
 import Access from './components/ui/Accessories/Access'
 import { BrowserRouter, Router, Routes, Route } from 'react-router-dom'
 import './i18n'
-import {ClockLoader} from 'react-spinners'
-
+import { ClockLoader } from 'react-spinners'
+import logo from '../src/assets/footer_images/logo.png'
+const Home = lazy(() => import('./pages/Home/index.jsx'));
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Suspense fallback={<div style={{display: 'flex', justifyContent: 'center', height: '100vh', alignItems: 'center'}}><ClockLoader color="#fff" /></div>}>
+    <Suspense
+      fallback={
+        <div style={{ display: 'flex', textAlign: 'center', alignItems: 'center', marginTop: '12%', flexDirection: 'column', height: '100vh', width: '98vw', alignItems: 'center' }}>
+          <div>
+            <img src={logo} alt="Parvaz logo" />
+            <h1 className='m-0 p-0 img_loader text-white my-3' ><span>Parvoz </span>Group</h1>
+          </div>
+          <div>
+            <ClockLoader color="#fff" />
+          </div>
+        </div>
+      }
+    >
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<App />}>

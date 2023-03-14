@@ -24,5 +24,22 @@
   "Factories": "Zavodlar",
   "Clients": "Mijozlar",
   "Workers": "Ishchilar",
-  "ISO_Certificates": "ISO sertifikatlari"
+  "ISO_Certificates": "ISO sertifikatlari",
+  "Location": "Manzil",
+  "Uzbekistan": "Uzbekiston",
+  "Afganistan": "Afg'oniston",
+  "Amerika": "Amerika",
+  "Kazakhistan": "Qozog'iston",
+  "Partners" : "Hamkorlar",
+  "F_desc" : "Parvazprof sanoat-ishlab chiqarish kompaniyasi (kompaniyasi) Savdo va sanoat vazirligida ro'yxatdan o'tgan kompaniya bo'lib, kompaniyaning faoliyati deraza va eshik buyumlari uchun barcha turdagi PVX profillarni ishlab chiqarish va sotishdan iborat.",
+  "Q_Menu": "Tez menyu",
+  "Contact_footer": "Aloqa",
+  "Q_Menu_lists_home": "Uyga",
+  "Q_Menu_lists_about": "Biz haqimizda",
+  "Q_Menu_lists_product": "Mahsulotlar",
+  "Q_Menu_lists_contact": "Bog'lanish",
+  "Contact_us": "Biz bilan bog'lanish",
+  "Contact_email": "parvozprof@gmail.com",
+  "powered": "Tomonidan qo'llab-quvvatlanadi: ",
+  "name_company": "Soff Hub"
 }

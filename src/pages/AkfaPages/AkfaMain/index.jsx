@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../../../components/ui/ProductHeader'
 import Line from '../../../components/ui/LIne'
 import H1 from '../../../components/ui/H1/Header1'
-import img from '../../../assets/headerbg.png'
+import img from '../../../assets/About_us/about.png'
 import bg from '../../../assets/bg.png'
 import bg1 from '../../../assets/c1.png'
 import bg2 from '../../../assets/c2.png'

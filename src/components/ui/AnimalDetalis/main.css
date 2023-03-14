@@ -11,24 +11,53 @@ a{
 .carddd{
     opacity: 1;
 }
+.quti{
+    display: flex ;
+}
+
+.maincardd img{
+    object-fit: cover !important;
+}
 .box{
-    display: flex;
+    width: 300px !important;
 }
-.maincard{
+.box img{
+    display: block;
     width: 100%;
-    height: 60vh !important;
-    margin: 0 auto !important ;
+    margin-bottom: 30px;
+    object-fit: cover;
 }
-.maincard img{
+.maincardd{
+    width: 100%;
+    height: 70vh !important;
+    margin: 0 auto !important ;
+    display: flex !important;
+}
+.maincardd img{
     height: 100%;
     object-fit:  cover;
 }
 .btn{
+    width: 100% !important;
     margin: 0 auto !important;
 }
 
 @media (max-width: 576px ) {
-    .maincard{
+    .maincardd{
         height: 40vh !important;
+    }
+    .quti{
+        display: block;
+    }
+    .box{
+        width: 100% !important;
+    }
+    .box1{
+        display: flex;
+        width: 50% !important;
+    }
+    .box1 img{
+        width: 90px !important;
+     
     }
 }

@@ -4,6 +4,7 @@ import img from '../../../assets/rom.png'
 import img1 from '../../../assets/HOmeImage/un.png'
 import img2 from '../../../assets/HOmeImage/aralash.png'
 import img4 from '../../../assets/HOmeImage/qimmata.png'
+import img5 from '../../../assets/HOmeImage/other.png'
 import Btn from '../Buttons/Button'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,16 +20,22 @@ const Index = () => {
             pass: '/akwin'
         },
         {
+            image: img2,
+            title: t("Product_animal_title"),
+            pas: t("Product_animal_desc"),
+            pass: '/animal'
+        },
+        {
             image: img1,
             title: t("Product_flour_title"),
             pas: t("Product_flour_desc"),
             pass: '/flour'
         },
         {
-            image: img2,
-            title: t("Product_animal_title"),
-            pas: t("Product_animal_desc"),
-            pass: '/animal'
+            image: img5,
+            title: 'Other Products',
+            pas: "Sunflower oil is a mild-tasting, plant-based fat that's perfect for roasting, deep-frying and stir-frying. Find out how to store and cook with sunflower oil."
+
         },
         {
             image: img4,
@@ -45,13 +52,13 @@ const Index = () => {
             {
                 mass.map((item, i) => {
                     return (
-                        <div key={i} className='my-2' >
+                        <div key={i} className='my-5' >
                             <div className="myrow row g-0">
-                                <div className={`${i % 2 === 0 ? 'cols col-12 col-sm-6 col-md-6   ' : 'box1 colss col-12 col-sm-6 col-md-6 text-end  '}`} data-aos="zoom-in-up" data-aos-duration='1000'>
+                                <div className={`${i % 2 === 0 ? 'cols col-12 col-sm-6 col-md-6   ' : 'box1 colss col-12 col-sm-6 col-md-6 text-end  '}`} data-aos={`${i % 2 === 0 ? 'fade-right': 'fade-left'}`}data-aos-duration='500'>
                                     <img src={item.image} alt="pvc" />
                                 </div>
-                                <div className="cols1 col-12 col-sm-6 col-md-6 text-start text-md-start" data-aos="zoom-in-down" data-aos-duration='1000'>
-                                    <h4>{item.title}</h4>
+                                <div className="cols1 col-12 col-sm-6 col-md-6 text-start text-md-start" data-aos={`${i % 2 === 0 ? 'fade-left': 'fade-right'}`} data-aos-duration='1000'>
+                                    <h3>{item.title}</h3>
                                     <p>{item.pas}</p>
                                     <Btn pass={item.pass} />
                                 </div>

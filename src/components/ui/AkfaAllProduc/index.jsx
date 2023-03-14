@@ -1,7 +1,6 @@
 import React ,{useEffect}from 'react';
 import './main.css'
 import img from '../../../assets/bg.png'
-import img1 from '../../../assets/akfa.png'
 import Buttonn from '../Buttons/Button';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

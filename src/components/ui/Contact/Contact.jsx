@@ -15,6 +15,43 @@ export default function Contact() {
   const [mass, setMass] = useState(
     [
       {
+        name: 'MAZAR I SHARIF ( MAIN BRANCH )',
+        number: '0794441155',
+        address: 'CHAWK MUKHABIRAT, SARAK SIYA GERD MAZAR SHARIF',
+        url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102361.59430555941!2d67.07788207923123!3d36.70334791941662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f34b8a3605314bd%3A0xb27a5e1a6c1fcf71!2z0JzQsNC30LDRgNC4LdCo0LDRgNC40YQsINCQ0YTQs9Cw0L3QuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1678117060414!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+      },
+      {
+        name: 'KABUL ( MAIN BRANCH )',
+        number: '0799382736 / 0786218216',
+        address: 'PARK HAI SANHATY, BAGRAM NEW STREET, 4TH STREET',
+        url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+      },
+      [
+        {
+          name_main: 'KABUL'
+        },
+        [
+          {
+            name: 'SALIM KARWAN BRANCH',
+            number: '0791987987 / 0785965555',
+            address: 'SALIM KARWAN MADINA PLAZA',
+            url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+          },
+          {
+            name: 'BAGRAMI BRANCH',
+            number: '0731402403',
+            address: 'SARAK OMOMI, QALAY AHMAD KHAN',
+            url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+          },
+          {
+            name: 'DEHMAZANG BRANCH',
+            number: '0785975555 / 0799466712',
+            address: 'DARLAMAN STREET FRONT OF HABIBIYA SCHOOL BESIDE KATEB UNIVERSITY',
+            url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+          }
+        ]
+      ],
+      {
         name: 'SHEBIRGHAN',
         number: '0786140019',
         address: 'AQCHA PORT, BUILDING OF HAJE SHOKUR',
@@ -81,31 +118,7 @@ export default function Contact() {
         address: 'Sino district , Dushanbe Tajikistan',
         url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.9572882386!2d68.64149518891266!3d38.56150890450092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b5d16fd27bf89b%3A0xddf9378ddea1fd44!2z0JTRg9GI0LDQvdCx0LUsINCi0LDQtNC20LjQutC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678185953777!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
       },
-      [
-        {
-          name_main: 'KABUL'
-        },
-        [
-          {
-            name: 'SALIM KARWAN BRANCH',
-            number: '0791987987 / 0785965555',
-            address: 'SALIM KARWAN MADINA PLAZA',
-            url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
-          },
-          {
-            name: 'BAGRAMI BRANCH',
-            number: '0731402403',
-            address: 'SARAK OMOMI, QALAY AHMAD KHAN',
-            url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
-          },
-          {
-            name: 'DEHMAZANG BRANCH',
-            number: '0785975555 / 0799466712',
-            address: 'DARLAMAN STREET FRONT OF HABIBIYA SCHOOL BESIDE KATEB UNIVERSITY',
-            url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
-          }
-        ]
-      ],
+
       {
         name: 'GHAZNI',
         number: '0747155418 / 0794254998',
@@ -117,42 +130,31 @@ export default function Contact() {
         number: '0700605010 / 0799500554',
         address: 'KHOWAJA AHMADSHAI STREET BESID ALHIKMAT PUMP STATION HANAFI PLAZA KANDAHAR AFGHANISTAN',
         url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108702.55446745976!2d65.68012903821025!3d31.635087191552174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ed671baa0e28837%3A0x2759b21c9042aa75!2z0JrQsNC90LTQsNCz0LDRgCwg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116962035!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
-      },
-      {
-        name: 'MAZAR I SHARIF ( MAIN BRANCH )',
-        number: '0794441155',
-        address: 'CHAWK MUKHABIRAT, SARAK SIYA GERD MAZAR SHARIF',
-        url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102361.59430555941!2d67.07788207923123!3d36.70334791941662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f34b8a3605314bd%3A0xb27a5e1a6c1fcf71!2z0JzQsNC30LDRgNC4LdCo0LDRgNC40YQsINCQ0YTQs9Cw0L3QuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1678117060414!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
-      },
-      {
-        name: 'KABUL ( MAIN BRANCH )',
-        number: '0799382736 / 0786218216',
-        address: 'PARK HAI SANHATY, BAGRAM NEW STREET, 4TH STREET',
-        url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420605.9923280171!2d68.91753733270832!3d34.55395251583596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2z0JrQsNCx0YPQuywg0JDRhNCz0LDQvdC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1678116650390!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
       }
+      
     ]);
 
   return (
     <div className='big_content'>
-      <h1 className='text-center d-none d-lg-block'>Location</h1>
-      <div className='context'>
+      <h1 className='text-center d-none d-lg-block my-5'>Location</h1>
+      <div className='context container'>
         {
           (mass) && mass.map((item, index) => {
             return (
               (Array.isArray(item)) ?
                 <div className='px-lg-0 my-4'>
-                  <h2>{item[0].name_main}</h2>
+                  <h2 className='name'>{item[0].name_main}</h2>
                   <ul className='lh-lg'>
                     {
                       item[1].map((result, i) => {
                         return (
-                          <div data-aos='fade-up' data-aos-duration='1000' className='d-flex  align-items-center flex-wrap' key={i}>
+                          <div data-aos='fade-right' data-aos-duration='1000' className='d-flex  align-items-center flex-wrap' key={i}>
                             <div className='description'>
                               <li className='main_item'>{result.name}</li>
                               <li>{result.number}</li>
-                              <li className='text-lowercase mb-2'>{result.address}</li>
+                              <li className='text-lowercase mb-4'>{result.address}</li>
                             </div>
-                            <iframe className='map' style={{ height: '300px' }} src={`${result.url}`} ></iframe>
+                            <iframe data-aos='fade-left' data-aos-duration='1000' className='map' style={{ height: '300px' }} src={`${result.url}`} ></iframe>
                           </div>
                         )
                       })

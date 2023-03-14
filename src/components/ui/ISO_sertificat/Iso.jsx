@@ -37,14 +37,12 @@ export default function Iso() {
   }, []);
 
   return (
-    <div className='container text-end'>
+    <div className='container text-center mb-5'>
       <Header1 info={t("ISO_Certificates")}/>
       <Carousel className='Iso_slider' infinite={true} keyBoardControl={true} responsive={responsive} autoPlay={true} autoPlaySpeed={2000} showDots={true}>
         <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img1} alt="iso_sertificat1"/></div>
         <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img2} alt="iso_sertificat2"/></div>
-        <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img3} alt="iso_sertificat3"/></div>
         <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img4} alt="iso_sertificat4"/></div>
-        <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img2} alt="iso_sertificat2"/></div>
         <div data-aos-duration='1000' data-aos="fade-up"><img src={Iso_img3} alt="iso_sertificat3"/></div>
       </Carousel>
     </div>
