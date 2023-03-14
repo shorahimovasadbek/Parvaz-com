@@ -1,3 +1,17 @@
-.modal-image{
-    max-height: 500px !important;
+
+.__react_modal_image__medium_img{
+    max-width: 500px;
+    height: 500px;
+    background-color: white !important;
+    object-fit: cover;
+    padding: 1rem;
+}
+
+.img_card {
+    display: grid;
+    place-items: center;
+    height: 350px;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 10px;
 }

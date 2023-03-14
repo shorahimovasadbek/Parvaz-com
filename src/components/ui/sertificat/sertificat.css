@@ -14,3 +14,13 @@
 .sertificats .card{
   background-color: transparent !important;
 }
+
+
+
+.__react_modal_image__medium_img{
+  width: auto !important;
+  height: 700px !important;
+  background-color: white !important;
+  object-fit: cover;
+  padding: 1rem;
+} 

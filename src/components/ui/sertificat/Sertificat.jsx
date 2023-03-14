@@ -4,6 +4,7 @@ import img2 from '../../../assets/Iso_images/image14.png'
 import img3 from '../../../assets/Iso_images/image17.png'
 import img4 from '../../../assets/Iso_images/image18.png'
 import './sertificat.css'
+import ModalImage from "react-modal-image";
 
 export default function Sertificat() {
   return (
@@ -12,22 +13,50 @@ export default function Sertificat() {
       <div className="row mt-4 align-items-center">
         <div className="col-12 justify-content-center d-flex col-md-6 col-lg-3">
           <div className="card">
-            <img src={img3} alt="sertificat3" />
+            <ModalImage
+              small={img3}
+              large={img3}
+              alt={"Sertificate"}
+              hideDownload={false}
+              hideZoom={false}
+              className="img-fluid modal-image"
+            />
           </div>
         </div>
         <div className="col-12 justify-content-center d-flex col-md-6 col-lg-3">
           <div className="card">
-            <img src={img1} alt="sertificat1" />
+          <ModalImage
+              small={img1}
+              large={img1}
+              alt={"Sertificate"}
+              hideDownload={false}
+              hideZoom={false}
+              className="img-fluid modal-image"
+            />
           </div>
         </div>
         <div className="col-12 justify-content-center d-flex col-md-6 col-lg-3">
           <div className="card">
-            <img src={img2} alt="sertificat2" />
+             <ModalImage
+              small={img2}
+              large={img2}
+              alt={"Sertificate"}
+              hideDownload={false}
+              hideZoom={false}
+              className="img-fluid modal-image"
+            />
           </div>
         </div>
         <div className="col-12 justify-content-center d-flex col-md-6 col-lg-3">
           <div className="card">
-            <img src={img4} alt="sertificat4" />
+          <ModalImage
+              small={img4}
+              large={img4}
+              alt={"Sertificate"}
+              hideDownload={false}
+              hideZoom={false}
+              className="img-fluid modal-image"
+            />
           </div>
         </div>
       </div>
